@@ -19,6 +19,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
       - name: Verify required site files
         shell: bash
         run: |
@@ -28,3 +33,19 @@ jobs:
           test -f not-equal-me/index.html
           test -f nearly-equal-joy/index.html
           echo "Required site files are present."
+
+      - name: Build Equal Love page
+        run: npm run build:equal-love
+
+      - name: Verify Equal Love search
+        run: npm run verify:equal-love-search
+
+      - name: Verify Equal Love page
+        run: npm run verify:equal-love-page
+
+      - name: Verify generated Equal Love files are current
+        shell: bash
+        run: |
+          set -e
+          git diff --exit-code -- equal-love/index.html generated/equal-love-song-cards.html
+          echo "Generated Equal Love files are up to date."
