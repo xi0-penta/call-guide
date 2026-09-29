@@ -1,0 +1,30 @@
+# Validates the ChatGPT -> GitHub workflow and required static site files.
+# This branch push is also used to verify Cloudflare Preview deployments.
+name: Static Check
+
+on:
+  push:
+    branches-ignore:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  static-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Verify required site files
+        shell: bash
+        run: |
+          set -e
+          test -f index.html
+          test -f equal-love/index.html
+          test -f not-equal-me/index.html
+          test -f nearly-equal-joy/index.html
+          echo "Required site files are present."
