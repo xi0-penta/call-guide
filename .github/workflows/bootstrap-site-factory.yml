@@ -1,0 +1,123 @@
+name: Bootstrap Site Factory
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bootstrap:
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ secrets.SITE_FACTORY_GITHUB_TOKEN }}
+      OWNER: xi0-penta
+      FACTORY_REPO: site-factory
+
+    steps:
+      - name: Validate required secret
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "SITE_FACTORY_GITHUB_TOKEN is not configured."
+            exit 1
+          fi
+
+      - name: Create site-factory repository if missing
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          if gh api "repos/${OWNER}/${FACTORY_REPO}" >/dev/null 2>&1; then
+            echo "${OWNER}/${FACTORY_REPO} already exists."
+          else
+            gh api               --method POST               /user/repos               -f name="${FACTORY_REPO}"               -f description="Private automation repository for creating and deploying new static sites."               -F private=true               -F auto_init=true
+            echo "Created ${OWNER}/${FACTORY_REPO}."
+          fi
+
+      - name: Seed README
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          path="README.md"
+
+          if gh api "repos/${OWNER}/${FACTORY_REPO}/contents/${path}" >/dev/null 2>&1; then
+            echo "${path} already exists. Leaving it unchanged."
+            exit 0
+          fi
+
+          content=$(cat <<'EOF'
+          # site-factory
+
+          Private automation repository used to create new website repositories and prepare them for deployment.
+
+          ## Bootstrap state
+
+          This repository was created by the bootstrap workflow in `xi0-penta/call-guide`.
+
+          The Cloudflare integration is intentionally not configured by the bootstrap step. It will be added separately after the repository creation flow is verified.
+
+          ## Planned flow
+
+          1. Receive a site creation request.
+          2. Create a new GitHub repository.
+          3. Add the initial website files.
+          4. Create a Cloudflare Pages project.
+          5. Connect the repository to Cloudflare Pages.
+          6. Use pull requests and preview deployments before production.
+          EOF
+          )
+
+          encoded=$(printf '%s' "$content" | base64 -w 0)
+
+          gh api             --method PUT             "repos/${OWNER}/${FACTORY_REPO}/contents/${path}"             -f message="Add site-factory README"             -f content="$encoded"
+
+      - name: Seed create-site workflow placeholder
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          path=".github/workflows/create-site.yml"
+
+          if gh api "repos/${OWNER}/${FACTORY_REPO}/contents/${path}" >/dev/null 2>&1; then
+            echo "${path} already exists. Leaving it unchanged."
+            exit 0
+          fi
+
+          content=$(cat <<'EOF'
+          name: Create Site
+
+          on:
+            workflow_dispatch:
+              inputs:
+                repository_name:
+                  description: "Repository name for the new site"
+                  required: true
+                  type: string
+
+          permissions:
+            contents: read
+
+          jobs:
+            not-configured:
+              runs-on: ubuntu-latest
+              steps:
+                - name: Factory setup pending
+                  run: |
+                    echo "site-factory was bootstrapped successfully."
+                    echo "Repository creation and Cloudflare deployment logic will be added in the next setup step."
+                    echo "Requested repository: ${{ inputs.repository_name }}"
+          EOF
+          )
+
+          encoded=$(printf '%s' "$content" | base64 -w 0)
+
+          gh api             --method PUT             "repos/${OWNER}/${FACTORY_REPO}/contents/${path}"             -f message="Add create-site workflow placeholder"             -f content="$encoded"
+
+      - name: Bootstrap complete
+        shell: bash
+        run: |
+          echo "Bootstrap target: https://github.com/${OWNER}/${FACTORY_REPO}"
