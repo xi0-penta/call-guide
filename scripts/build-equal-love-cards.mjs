@@ -53,16 +53,21 @@ const cardHtml = song => {
     ? `<span class="color-chip">${escapeText(song.colorLabel)}</span>`
     : "";
 
-  const searchText = [
+  const titleSearchText = [
     song.title,
+    ...song.aliases
+  ].filter(Boolean).join(" ").toLowerCase();
+
+  const contentSearchText = [
     song.rank,
     song.kind,
     song.summary,
     song.colorLabel ? song.colorLabel.replace(/^色：/, "") : "",
     ...song.tags,
-    song.flags.tiger ? "イェッタイガー" : "",
-    ...song.aliases
+    song.flags.tiger ? "イェッタイガー" : ""
   ].filter(Boolean).join(" ").toLowerCase();
+
+  const searchText = [titleSearchText, contentSearchText].filter(Boolean).join(" ");
 
   const attrs = [
     `data-color="${song.flags.color ? 1 : 0}"`,
@@ -73,6 +78,8 @@ const cardHtml = song => {
     `data-priority="${song.priority}"`,
     `data-quiet="${song.flags.quiet ? 1 : 0}"`,
     `data-search="${escapeAttr(searchText)}"`,
+    `data-search-title="${escapeAttr(titleSearchText)}"`,
+    `data-search-content="${escapeAttr(contentSearchText)}"`,
     `data-tags="${escapeAttr(song.tags.join(" "))}"`,
     `data-tiger="${song.flags.tiger ? 1 : 0}"`,
     `data-title="${escapeAttr(song.title)}"`,
