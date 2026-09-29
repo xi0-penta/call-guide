@@ -76,7 +76,7 @@ for (const [index, song] of songs.entries()) {
 }
 
 const exactCases = new Map([
-  ["ニアジョイ", ["≒JOY"]],
+  ["nearly equal joy", ["≒JOY"]],
   ["むぼうじん", ["無謀人"]],
   ["ブルハワ", ["ブルーハワイレモン"]],
   ["今恋", ["今、恋をしている"]],
