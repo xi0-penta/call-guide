@@ -1,0 +1,7 @@
+{
+  "enabled": true,
+  "production_branch": "main",
+  "build_command": "exit 0",
+  "destination_dir": ".",
+  "root_dir": ""
+}
