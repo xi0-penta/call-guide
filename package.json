@@ -3,6 +3,7 @@
   "private": true,
   "scripts": {
     "build:equal-love-cards": "node scripts/build-equal-love-cards.mjs",
-    "verify:equal-love-search": "node scripts/verify-equal-love-search.mjs"
+    "verify:equal-love-search": "node scripts/verify-equal-love-search.mjs",
+    "build:equal-love": "node scripts/build-equal-love-cards.mjs"
   }
 }
