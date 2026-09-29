@@ -1,0 +1,7 @@
+{
+  "name": "call-guide",
+  "private": true,
+  "scripts": {
+    "build:equal-love-cards": "node scripts/build-equal-love-cards.mjs"
+  }
+}
