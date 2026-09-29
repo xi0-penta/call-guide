@@ -2,7 +2,9 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname } from "node:path";
 
 const DATA_PATH = "data/equal-love.json";
-const OUTPUT_PATH = process.argv[2] || "generated/equal-love-song-cards.html";
+const TEMPLATE_PATH = "templates/equal-love.html";
+const FRAGMENT_PATH = "generated/equal-love-song-cards.html";
+const PAGE_PATH = "equal-love/index.html";
 
 const escapeText = value => String(value ?? "")
   .replaceAll("&", "&amp;")
@@ -107,6 +109,30 @@ ${tigerChip}${colorChip}
 };
 
 const output = songs.map(cardHtml).join("\n") + "\n";
-await mkdir(dirname(OUTPUT_PATH), { recursive: true });
-await writeFile(OUTPUT_PATH, output, "utf8");
-console.log(`Generated ${songs.length} =LOVE cards -> ${OUTPUT_PATH}`);
+
+const learnedInputs = [...songs]
+  .reverse()
+  .map(song =>
+    `<input aria-hidden="true" class="state-toggle learned-toggle-global" data-key="${escapeAttr(song.key)}" id="learned-${song.id}" type="checkbox"/>`
+  )
+  .join("");
+
+const template = await readFile(TEMPLATE_PATH, "utf8");
+const required = ["{{LEARNED_INPUTS}}", "{{SONG_CARDS}}", "{{COUNT}}"];
+for (const marker of required) {
+  if (!template.includes(marker)) {
+    throw new Error(`Missing template marker: ${marker}`);
+  }
+}
+
+const page = template
+  .replace("{{LEARNED_INPUTS}}", learnedInputs)
+  .replace("{{SONG_CARDS}}", output.trimEnd())
+  .replaceAll("{{COUNT}}", String(songs.length));
+
+await mkdir(dirname(FRAGMENT_PATH), { recursive: true });
+await writeFile(FRAGMENT_PATH, output, "utf8");
+await writeFile(PAGE_PATH, page, "utf8");
+
+console.log(`Generated ${songs.length} =LOVE cards -> ${FRAGMENT_PATH}`);
+console.log(`Generated =LOVE page -> ${PAGE_PATH}`);
