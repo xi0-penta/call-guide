@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "production_branch": "main",
-  "build_command": "exit 0",
+  "build_command": "npm run build",
   "destination_dir": ".",
   "root_dir": ""
 }

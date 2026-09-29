@@ -1,0 +1,2204 @@
+{
+  "group": "equal-love",
+  "songs": [
+    {
+      "id": 1,
+      "key": "＝LOVE",
+      "title": "＝LOVE",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用ベース",
+      "summaryHtml": "英語MIX・日本語MIX・名前・超絶かわいいが基本。イントロに可変寄りのコール、Bメロ前に家虎系もある。初心者は英語・日本語MIXだけでも十分。",
+      "tags": [
+        "汎用",
+        "家虎"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": true,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "＝love △ 汎用ベース 英語mix・日本語mix・名前・超絶かわいいが基本。イントロに可変寄りのコール、bメロ前に家虎系もある。初心者は英語・日本語mixだけでも十分。  汎用 家虎 イェッタイガー",
+      "source": {
+        "url": "https://ikorabucall.com/equal-love-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 2,
+      "key": "記憶のどこかで",
+      "title": "記憶のどこかで",
+      "priority": 0,
+      "rank": "◎＋色",
+      "kind": "汎用＋色指定",
+      "summaryHtml": "英語MIX＋名前・Bメロ4連＋サビ汎用。ペンラは赤。",
+      "tags": [
+        "汎用",
+        "色指定"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": true,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": "色：赤",
+      "searchText": "記憶のどこかで ◎＋色 汎用＋色指定 英語mix＋名前・bメロ4連＋サビ汎用。ペンラは赤。 赤 汎用 色指定 ",
+      "source": {
+        "url": "https://ikorabucall.com/kioku-no-dokokade-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 3,
+      "key": "スタート！",
+      "title": "スタート！",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用ベース",
+      "summaryHtml": "基本型だがサビ前にMIXをかなり速く打つ。サビの「wow wow wow」を一緒に歌う。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "スタート！ △ 汎用ベース 基本型だがサビ前にmixをかなり速く打つ。サビの「wow wow wow」を一緒に歌う。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/start-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 4,
+      "key": "僕らの制服クリスマス",
+      "title": "僕らの制服クリスマス",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "名前・汎用合いの手中心。難しい専用要素は少なめ。",
+      "tags": [
+        "特殊",
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "僕らの制服クリスマス ◎ 汎用でok 名前・汎用合いの手中心。難しい専用要素は少なめ。  特殊 汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/bokura-no-seifuku-christmas-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 5,
+      "key": "ようこそ！イコラブ沼",
+      "title": "ようこそ！イコラブ沼",
+      "priority": 2,
+      "rank": "★",
+      "kind": "特殊レスポンス",
+      "summaryHtml": "MIX型より曲固有レスポンス型。「沼！」「Go!」「Dance!」「yeah」など。サビの振りもあり。",
+      "tags": [
+        "特殊",
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "ようこそ！イコラブ沼 ★ 特殊レスポンス mix型より曲固有レスポンス型。「沼！」「go!」「dance!」「yeah」など。サビの振りもあり。  特殊 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/ikorabu-numa-love-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 6,
+      "key": "届いてLOVE YOU♡",
+      "title": "届いてLOVE YOU♡",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用＋固有レス",
+      "summaryHtml": "英語MIX→名前・超絶かわいい→日本語MIXの王道型。「大好きなのに」に「俺も！」の固有レス。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "届いてlove you♡ △ 汎用＋固有レス 英語mix→名前・超絶かわいい→日本語mixの王道型。「大好きなのに」に「俺も！」の固有レス。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/todoite-love-you-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 7,
+      "key": "手遅れcaution",
+      "title": "手遅れcaution",
+      "priority": 0,
+      "rank": "―＋色",
+      "kind": "コール薄め＋色指定",
+      "summaryHtml": "基本は聴く曲。ペンラ赤が強く定着。",
+      "tags": [
+        "色指定",
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": "色：赤",
+      "searchText": "手遅れcaution ―＋色 コール薄め＋色指定 基本は聴く曲。ペンラ赤が強く定着。 赤 色指定 コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 8,
+      "key": "「部活中に目が合うなって思ってたんだ」",
+      "title": "「部活中に目が合うなって思ってたんだ」",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・要予習",
+      "summaryHtml": "イントロ英語MIXに加えて代表的なガチ恋キャンセルあり。倍速MIXも絡み、予習推奨。",
+      "tags": [
+        "特殊",
+        "口上",
+        "家虎"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": true,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "「部活中に目が合うなって思ってたんだ」 ★★★ 特殊・要予習 イントロ英語mixに加えて代表的なガチ恋キャンセルあり。倍速mixも絡み、予習推奨。  特殊 口上 家虎 イェッタイガー",
+      "source": {
+        "url": "https://ikorabucall.com/bukatsuchu-ni-megaaunatte-omotteta-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 9,
+      "key": "樹愛羅、助けに来たぞ",
+      "title": "樹愛羅、助けに来たぞ",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "コールは多いが難度は低め。名前・汎用型中心。曲世界へのレスポンス感が強い。",
+      "tags": [
+        "汎用",
+        "家虎"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": true,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "樹愛羅、助けに来たぞ ◎ 汎用でok コールは多いが難度は低め。名前・汎用型中心。曲世界へのレスポンス感が強い。  汎用 家虎 イェッタイガー",
+      "source": {
+        "url": "https://ikorabucall.com/kiara-tasukeni-kitazo-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 10,
+      "key": "Want you! Want you!",
+      "title": "Want you! Want you!",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用＋固有レス",
+      "summaryHtml": "「キュンキュン」「＝LOVE yeah!」など短い曲固有の合いの手あり。長い専用口上はなし。",
+      "tags": [
+        "特殊",
+        "汎用",
+        "口上"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "want you! want you! △ 汎用＋固有レス 「キュンキュン」「＝love yeah!」など短い曲固有の合いの手あり。長い専用口上はなし。  特殊 汎用 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/want-you-want-you-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 11,
+      "key": "今、この船に乗れ！",
+      "title": "今、この船に乗れ！",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "かなり素直な汎用型。初見対応しやすい。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "今、この船に乗れ！ ◎ 汎用でok かなり素直な汎用型。初見対応しやすい。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/ima-kono-fune-ni-nore-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 12,
+      "key": "アイカツハッピーエンド",
+      "title": "アイカツハッピーエンド",
+      "priority": 2,
+      "rank": "★",
+      "kind": "特殊・要予習",
+      "summaryHtml": "2サビ後間奏に専用オリジナルコールあり。曲固有として覚えたい。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "アイカツハッピーエンド ★ 特殊・要予習 2サビ後間奏に専用オリジナルコールあり。曲固有として覚えたい。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/aikatsu-happy-end-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 13,
+      "key": "探せ ダイヤモンドリリー",
+      "title": "探せ ダイヤモンドリリー",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・最優先",
+      "summaryHtml": "イコラブ現場文法の教科書。MIX、名前、家虎系、ガチ恋口上まで詰まる。最優先予習曲。",
+      "tags": [
+        "特殊",
+        "口上",
+        "家虎"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": true,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "探せ ダイヤモンドリリー ★★★ 特殊・最優先 イコラブ現場文法の教科書。mix、名前、家虎系、ガチ恋口上まで詰まる。最優先予習曲。  特殊 口上 家虎 イェッタイガー",
+      "source": {
+        "url": "https://ikorabucall.com/sagase-diamond-lily-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 14,
+      "key": "いらない ツインテール",
+      "title": "いらない ツインテール",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用＋体力型",
+      "summaryHtml": "「おい！」連打が多い高速・体力型。特殊長文よりタイミング勝負。",
+      "tags": [
+        "特殊",
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "いらない ツインテール △ 汎用＋体力型 「おい！」連打が多い高速・体力型。特殊長文よりタイミング勝負。  特殊 汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/iranai-twintail-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 15,
+      "key": "虹の素",
+      "title": "虹の素",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "定着コールほぼなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "虹の素 ― コールなし寄り 定着コールほぼなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 16,
+      "key": "ズルいよ ズルいね",
+      "title": "ズルいよ ズルいね",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本はパフォーマンス・歌を浴びる曲。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ズルいよ ズルいね ― コールなし寄り 基本はパフォーマンス・歌を浴びる曲。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 17,
+      "key": "Sweetest girl",
+      "title": "Sweetest girl",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "目立つ特殊MIXなし。名前など軽い汎用コール。",
+      "tags": [
+        "特殊",
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "sweetest girl ◎ 汎用でok 目立つ特殊mixなし。名前など軽い汎用コール。  特殊 汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/sweetest-girl-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 18,
+      "key": "推しのいる世界",
+      "title": "推しのいる世界",
+      "priority": 2,
+      "rank": "★＋色",
+      "kind": "特殊・専用口上＋色",
+      "summaryHtml": "「推しセカ口上」あり。メンバー側考案系。ペンラ紫。",
+      "tags": [
+        "特殊",
+        "色指定",
+        "口上"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": "色：紫",
+      "searchText": "推しのいる世界 ★＋色 特殊・専用口上＋色 「推しセカ口上」あり。メンバー側考案系。ペンラ紫。 紫 特殊 色指定 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/oshi-no-iru-sekai-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 19,
+      "key": "次に会えた時 何を話そうかな",
+      "title": "次に会えた時 何を話そうかな",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし寄り。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "次に会えた時 何を話そうかな ― コールなし寄り コールなし寄り。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 20,
+      "key": "CAMEO",
+      "title": "CAMEO",
+      "priority": 0,
+      "rank": "―",
+      "kind": "クラップ中心",
+      "summaryHtml": "声のコールは基本なし。一部クラップあり。",
+      "tags": [
+        "コール薄め",
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "cameo ― クラップ中心 声のコールは基本なし。一部クラップあり。  コール薄め 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 21,
+      "key": "「君と私の歌」",
+      "title": "「君と私の歌」",
+      "priority": 1,
+      "rank": "△",
+      "kind": "名前コール",
+      "summaryHtml": "衣織発信のお名前コール。Bメロで歌唱メンバー名を呼ぶのが特徴。",
+      "tags": [],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "「君と私の歌」 △ 名前コール 衣織発信のお名前コール。bメロで歌唱メンバー名を呼ぶのが特徴。   ",
+      "source": {
+        "url": "https://ikorabucall.com/kimi-to-watashi-no-uta-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 22,
+      "key": "My Voice Is For You",
+      "title": "My Voice Is For You",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "聴く曲。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "my voice is for you ― コールなし寄り 聴く曲。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 23,
+      "key": "青春“サブリミナル”",
+      "title": "青春“サブリミナル”",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "現行ではかなり王道・シンプル。名前や汎用コールで十分。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "青春“サブリミナル” ◎ 汎用でok 現行ではかなり王道・シンプル。名前や汎用コールで十分。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/seishun-subliminal-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 24,
+      "key": "しゅきぴ",
+      "title": "しゅきぴ",
+      "priority": 0,
+      "rank": "○",
+      "kind": "振り中心",
+      "summaryHtml": "コールというコールは少ない。振り・かわいさを楽しむ寄り。",
+      "tags": [
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "しゅきぴ ○ 振り中心 コールというコールは少ない。振り・かわいさを楽しむ寄り。  参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/shukipi-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 25,
+      "key": "流星群",
+      "title": "流星群",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "流星群 ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 26,
+      "key": "フラジャイル",
+      "title": "フラジャイル",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "フラジャイル ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 27,
+      "key": "桜の咲く音がした",
+      "title": "桜の咲く音がした",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "桜の咲く音がした ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 28,
+      "key": "Oh! Darling",
+      "title": "Oh! Darling",
+      "priority": 1,
+      "rank": "△",
+      "kind": "タオル・参加型",
+      "summaryHtml": "コール自体よりサビのタオル回しが重要。",
+      "tags": [
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "oh! darling △ タオル・参加型 コール自体よりサビのタオル回しが重要。  参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/oh-darling-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 29,
+      "key": "セノビーインラブ",
+      "title": "セノビーインラブ",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "定着コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "セノビーインラブ ― コールなし寄り 定着コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 30,
+      "key": "現役アイドルちゅ〜",
+      "title": "現役アイドルちゅ〜",
+      "priority": 0,
+      "rank": "○",
+      "kind": "軽いレス",
+      "summaryHtml": "ほぼ聴く曲。Cメロの「可愛いよー！」程度。",
+      "tags": [],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "現役アイドルちゅ〜 ○ 軽いレス ほぼ聴く曲。cメロの「可愛いよー！」程度。   ",
+      "source": {
+        "url": "https://ikorabucall.com/geneki-idol-chu-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 31,
+      "key": "拝啓 貴方様",
+      "title": "拝啓 貴方様",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "拝啓 貴方様 ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 32,
+      "key": "24/7",
+      "title": "24/7",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "24/7 ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 33,
+      "key": "お姉さんじゃダメですか？",
+      "title": "お姉さんじゃダメですか？",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "お姉さんじゃダメですか？ ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 34,
+      "key": "cinema",
+      "title": "cinema",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "cinema ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 35,
+      "key": "866",
+      "title": "866",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本は聴く曲。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "866 ― コールなし寄り 基本は聴く曲。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 36,
+      "key": "ウィークエンドシトロン",
+      "title": "ウィークエンドシトロン",
+      "priority": 2,
+      "rank": "★",
+      "kind": "特殊レスポンス",
+      "summaryHtml": "「そうなんでしょ！」「Hey!」「cream!」等、曲固有レスが中心。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ウィークエンドシトロン ★ 特殊レスポンス 「そうなんでしょ！」「hey!」「cream!」等、曲固有レスが中心。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/weekend-citron-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 37,
+      "key": "ズッ友案件",
+      "title": "ズッ友案件",
+      "priority": 1,
+      "rank": "△",
+      "kind": "レスポンス型・注意",
+      "summaryHtml": "「Oh Yeah」「Yes」「それな」「パリピ」等。定着度に揺れがあるため現場合わせが安全。",
+      "tags": [],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ズッ友案件 △ レスポンス型・注意 「oh yeah」「yes」「それな」「パリピ」等。定着度に揺れがあるため現場合わせが安全。   ",
+      "source": {
+        "url": "https://ikorabucall.com/zuttomo-anken-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 38,
+      "key": "夏祭り恋慕う",
+      "title": "夏祭り恋慕う",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "英語MIX→名前→日本語MIXの王道型。Cメロの「まいか」コールも盛り上がる。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "夏祭り恋慕う ◎ 汎用でok 英語mix→名前→日本語mixの王道型。cメロの「まいか」コールも盛り上がる。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/natsumatsuri-koimou-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 39,
+      "key": "祝祭",
+      "title": "祝祭",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "祝祭 ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 40,
+      "key": "The 5th",
+      "title": "The 5th",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本は聴く。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "the 5th ― コールなし寄り 基本は聴く。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 41,
+      "key": "お姫様にしてよ！",
+      "title": "お姫様にしてよ！",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "シンプルで初心者向き。汎用で問題なし。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "お姫様にしてよ！ ◎ 汎用でok シンプルで初心者向き。汎用で問題なし。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/ohimesama-ni-shiteyo-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 42,
+      "key": "Poison Girl",
+      "title": "Poison Girl",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "poison girl ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 43,
+      "key": "BPM170の君へ",
+      "title": "BPM170の君へ",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "bpm170の君へ ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 44,
+      "key": "あの子コンプレックス",
+      "title": "あの子コンプレックス",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本は歌・演出を浴びる。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "あの子コンプレックス ― コールなし寄り 基本は歌・演出を浴びる。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 45,
+      "key": "笑顔のレシピ",
+      "title": "笑顔のレシピ",
+      "priority": 2,
+      "rank": "★",
+      "kind": "特殊レス・動作",
+      "summaryHtml": "杏奈発信。「Oh yeah!」「愛してる！」＋ラスサビ「絆」でペンラを高く上げる。",
+      "tags": [
+        "特殊",
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "笑顔のレシピ ★ 特殊レス・動作 杏奈発信。「oh yeah!」「愛してる！」＋ラスサビ「絆」でペンラを高く上げる。  特殊 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/egao-no-recipe-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 46,
+      "key": "知らんけど",
+      "title": "知らんけど",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "知らんけど ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 47,
+      "key": "僕のヒロイン",
+      "title": "僕のヒロイン",
+      "priority": 0,
+      "rank": "―＋色",
+      "kind": "コール薄め＋色指定",
+      "summaryHtml": "基本コールなし。瞳曲だがペンラは青指定。",
+      "tags": [
+        "色指定",
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": "色：青",
+      "searchText": "僕のヒロイン ―＋色 コール薄め＋色指定 基本コールなし。瞳曲だがペンラは青指定。 青 色指定 コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 48,
+      "key": "トリプルデート",
+      "title": "トリプルデート",
+      "priority": 1,
+      "rank": "△",
+      "kind": "合同曲・現場合わせ",
+      "summaryHtml": "合同曲。グループ・メンバーに合わせたレスや汎用合いの手中心。現場合わせで十分。",
+      "tags": [
+        "汎用"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "トリプルデート △ 合同曲・現場合わせ 合同曲。グループ・メンバーに合わせたレスや汎用合いの手中心。現場合わせで十分。  汎用 ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 49,
+      "key": "Be Selfish",
+      "title": "Be Selfish",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "be selfish ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 50,
+      "key": "好きって、言えなかった",
+      "title": "好きって、言えなかった",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "好きって、言えなかった ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 51,
+      "key": "わたし、魔法使い",
+      "title": "わたし、魔法使い",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "わたし、魔法使い ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 52,
+      "key": "真夜中マーメイド",
+      "title": "真夜中マーメイド",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "真夜中マーメイド ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 53,
+      "key": "この空がトリガー",
+      "title": "この空がトリガー",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "コールありだが特殊口上を覚える曲ではない。基本は汎用型。",
+      "tags": [
+        "特殊",
+        "汎用",
+        "口上"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "この空がトリガー ◎ 汎用でok コールありだが特殊口上を覚える曲ではない。基本は汎用型。  特殊 汎用 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/konosora-trigger-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 54,
+      "key": "Junkies",
+      "title": "Junkies",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・最優先",
+      "summaryHtml": "完全に専用レスポンス曲。「イコラブ」「Oh yeah!」「Let's go together!」「Junkies」「ほい」等多数。煽りは公演ごとに変わるので固定暗記しすぎない。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "junkies ★★★ 特殊・最優先 完全に専用レスポンス曲。「イコラブ」「oh yeah!」「let's go together!」「junkies」「ほい」等多数。煽りは公演ごとに変わるので固定暗記しすぎない。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/junkies-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 55,
+      "key": "ラブクリエイト",
+      "title": "ラブクリエイト",
+      "priority": 1,
+      "rank": "△",
+      "kind": "汎用＋クラップ",
+      "summaryHtml": "コール・クラップ・合いの手あり。高度な派生MIXより汎用＋現場合わせが安全。",
+      "tags": [
+        "汎用",
+        "参加型"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "ラブクリエイト △ 汎用＋クラップ コール・クラップ・合いの手あり。高度な派生mixより汎用＋現場合わせが安全。  汎用 参加型 ",
+      "source": {
+        "url": "https://idol-info.site/category/equal-love/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 56,
+      "key": "Kiara Tiara",
+      "title": "Kiara Tiara",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "kiara tiara ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 57,
+      "key": "君だけの花道",
+      "title": "君だけの花道",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "君だけの花道 ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 58,
+      "key": "おかえり、花便り",
+      "title": "おかえり、花便り",
+      "priority": 0,
+      "rank": "―＋色",
+      "kind": "色演出",
+      "summaryHtml": "コールより演出。客席を青／黄色に分ける色文化あり。",
+      "tags": [
+        "色指定",
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": "色：青／黄",
+      "searchText": "おかえり、花便り ―＋色 色演出 コールより演出。客席を青／黄色に分ける色文化あり。 青／黄 色指定 コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 59,
+      "key": "ナツマトペ",
+      "title": "ナツマトペ",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・要予習",
+      "summaryHtml": "「イチ・ニー・サン・シ！ イコラブ Let's go!」→フランス語→スペイン語のカウント等、明確に曲固有。セリフへのレスも多い。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ナツマトペ ★★★ 特殊・要予習 「イチ・ニー・サン・シ！ イコラブ let's go!」→フランス語→スペイン語のカウント等、明確に曲固有。セリフへのレスも多い。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/natsumatope-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 60,
+      "key": "だからとて",
+      "title": "だからとて",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "だからとて ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 61,
+      "key": "ヒロインズ",
+      "title": "ヒロインズ",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・要予習",
+      "summaryHtml": "自己紹介曲。通常MIXとは別物。「L・O・V・E→メンバー名」、各メンバーの決め台詞へのレスポンス。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ヒロインズ ★★★ 特殊・要予習 自己紹介曲。通常mixとは別物。「l・o・v・e→メンバー名」、各メンバーの決め台詞へのレスポンス。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/heroines-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 62,
+      "key": "ラブロケ",
+      "title": "ラブロケ",
+      "priority": 2,
+      "rank": "★＋色",
+      "kind": "振り＋色指定",
+      "summaryHtml": "MIXより振りコピ中心。ペンラはオレンジ。",
+      "tags": [
+        "特殊",
+        "色指定",
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": "色：オレンジ",
+      "searchText": "ラブロケ ★＋色 振り＋色指定 mixより振りコピ中心。ペンラはオレンジ。 オレンジ 特殊 色指定 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/love-rocket-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 63,
+      "key": "ラストノートしか知らない",
+      "title": "ラストノートしか知らない",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ラストノートしか知らない ― コールなし寄り 基本コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 64,
+      "key": "「ドライブ　デート　都内」",
+      "title": "「ドライブ　デート　都内」",
+      "priority": 2,
+      "rank": "★",
+      "kind": "固有レス",
+      "summaryHtml": "瞳発信。「Baby 愛してる」に客席が「ア・イ・シ・テ・ル！」と返す。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "「ドライブ　デート　都内」 ★ 固有レス 瞳発信。「baby 愛してる」に客席が「ア・イ・シ・テ・ル！」と返す。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/drive-date-tonai-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 65,
+      "key": "狂想カタストロフィ",
+      "title": "狂想カタストロフィ",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "狂想カタストロフィ ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 66,
+      "key": "どこが好きか言って",
+      "title": "どこが好きか言って",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "どこが好きか言って ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 67,
+      "key": "宝物はグリーン",
+      "title": "宝物はグリーン",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "宝物はグリーン ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 68,
+      "key": "呪って呪って",
+      "title": "呪って呪って",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本コールなし。パフォーマンスを見る曲。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "呪って呪って ― コールなし寄り 基本コールなし。パフォーマンスを見る曲。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 69,
+      "key": "誰にもバレずに",
+      "title": "誰にもバレずに",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "誰にもバレずに ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 70,
+      "key": "君の第3ボタン",
+      "title": "君の第3ボタン",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・専用口上",
+      "summaryHtml": "樹愛羅考案の専用口上あり。普通のガチ恋を入れる曲として覚えない方がいい。",
+      "tags": [
+        "特殊",
+        "口上"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "君の第3ボタン ★★★ 特殊・専用口上 樹愛羅考案の専用口上あり。普通のガチ恋を入れる曲として覚えない方がいい。  特殊 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/kimi-no-daisan-button-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 71,
+      "key": "絶対アイドル辞めないで",
+      "title": "絶対アイドル辞めないで",
+      "priority": 2,
+      "rank": "★",
+      "kind": "合唱型",
+      "summaryHtml": "コール自体は少ないが、2025年TIF以降、間奏部分を客席全体で歌う文化が定着。MIXより合唱。",
+      "tags": [
+        "特殊",
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "絶対アイドル辞めないで ★ 合唱型 コール自体は少ないが、2025年tif以降、間奏部分を客席全体で歌う文化が定着。mixより合唱。  特殊 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/zettai-idol-yamenaide-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 72,
+      "key": "仲直りシュークリーム",
+      "title": "仲直りシュークリーム",
+      "priority": 1,
+      "rank": "△",
+      "kind": "固有レス",
+      "summaryHtml": "瞳からコール発信あり。特にラストの「はーい！」を大きく返す。",
+      "tags": [],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "仲直りシュークリーム △ 固有レス 瞳からコール発信あり。特にラストの「はーい！」を大きく返す。   ",
+      "source": {
+        "url": "https://ikorabucall.com/nakanaori-shucream-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 73,
+      "key": "海とレモンティー",
+      "title": "海とレモンティー",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・専用口上",
+      "summaryHtml": "大場花菜考案の専用コール／口上。汎用MIXで代用しない方がいい。",
+      "tags": [
+        "特殊",
+        "汎用",
+        "口上"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "海とレモンティー ★★★ 特殊・専用口上 大場花菜考案の専用コール／口上。汎用mixで代用しない方がいい。  特殊 汎用 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/umi-to-lemon-tea-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 74,
+      "key": "とくべチュ、して",
+      "title": "とくべチュ、して",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "コールはかなり簡単。曲に合わせた短いレス中心。難しい専用口上なし。",
+      "tags": [
+        "特殊",
+        "汎用",
+        "口上"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "とくべチュ、して ◎ 汎用でok コールはかなり簡単。曲に合わせた短いレス中心。難しい専用口上なし。  特殊 汎用 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/tokubechu-shite-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 75,
+      "key": "恋人以上、好き未満",
+      "title": "恋人以上、好き未満",
+      "priority": 0,
+      "rank": "◎",
+      "kind": "汎用でOK",
+      "summaryHtml": "コール＋クラップとも簡単。初見でも合わせやすい。",
+      "tags": [
+        "汎用",
+        "参加型"
+      ],
+      "flags": {
+        "generic": true,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "恋人以上、好き未満 ◎ 汎用でok コール＋クラップとも簡単。初見でも合わせやすい。  汎用 参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/koibitoijou-sukimiman-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 76,
+      "key": "超特急逃走中",
+      "title": "超特急逃走中",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・要予習",
+      "summaryHtml": "「3,2,1,go!」「あいら、びゅー！」など曲固有レスが多い。普通のMIXだけでは拾いにくい。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "超特急逃走中 ★★★ 特殊・要予習 「3,2,1,go!」「あいら、びゅー！」など曲固有レスが多い。普通のmixだけでは拾いにくい。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/chotokkyu-tousouchu-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 77,
+      "key": "内緒バナシ",
+      "title": "内緒バナシ",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・最優先",
+      "summaryHtml": "みりにゃ考案のガチ恋口上部分あり。テンポも速く、専用予習価値が高い。",
+      "tags": [
+        "特殊",
+        "口上"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "内緒バナシ ★★★ 特殊・最優先 みりにゃ考案のガチ恋口上部分あり。テンポも速く、専用予習価値が高い。  特殊 口上 ",
+      "source": {
+        "url": "https://ikorabucall.com/naisho-banashi-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 78,
+      "key": "ラブソングに襲われる",
+      "title": "ラブソングに襲われる",
+      "priority": 3,
+      "rank": "★★★",
+      "kind": "特殊・最優先",
+      "summaryHtml": "メンバー全員考案。「パッカーン！」等の専用レス多数。ハモリを聴くため、あえてコールを入れない箇所指定もある。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "ラブソングに襲われる ★★★ 特殊・最優先 メンバー全員考案。「パッカーン！」等の専用レス多数。ハモリを聴くため、あえてコールを入れない箇所指定もある。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/love-song-ni-osowareru-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 79,
+      "key": "木漏れ日メゾフォルテ",
+      "title": "木漏れ日メゾフォルテ",
+      "priority": 2,
+      "rank": "★",
+      "kind": "特殊レスポンス",
+      "summaryHtml": "「いいのに、ね！」「ちょっとでいい！」等、歌詞対応レスポンス型。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "木漏れ日メゾフォルテ ★ 特殊レスポンス 「いいのに、ね！」「ちょっとでいい！」等、歌詞対応レスポンス型。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/komorebi-mezzoforte-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 80,
+      "key": "Queens",
+      "title": "Queens",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "queens ― コールなし寄り コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 81,
+      "key": "劇薬中毒",
+      "title": "劇薬中毒",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "基本コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "劇薬中毒 ― コールなし寄り 基本コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 82,
+      "key": "モラトリアム",
+      "title": "モラトリアム",
+      "priority": 0,
+      "rank": "―＋色",
+      "kind": "コールなし＋色文化",
+      "summaryHtml": "コールなし。緑一色はファン発祥で、公式指定ではない。",
+      "tags": [
+        "色指定",
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": true,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": "色：緑（非公式）",
+      "searchText": "モラトリアム ―＋色 コールなし＋色文化 コールなし。緑一色はファン発祥で、公式指定ではない。 緑（非公式） 色指定 コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 83,
+      "key": "お姫様の作り方",
+      "title": "お姫様の作り方",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "現時点で定着コールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "お姫様の作り方 ― コールなし寄り 現時点で定着コールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 84,
+      "key": "まだまだマイナー？マイナカード",
+      "title": "まだまだマイナー？マイナカード",
+      "priority": 1,
+      "rank": "△",
+      "kind": "新しめ・現場合わせ",
+      "summaryHtml": "コールあり。ただし新しめで定着度は安全側に。専用文言を決め打ちせず現場レスポンスを追う。",
+      "tags": [
+        "特殊"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "まだまだマイナー？マイナカード △ 新しめ・現場合わせ コールあり。ただし新しめで定着度は安全側に。専用文言を決め打ちせず現場レスポンスを追う。  特殊 ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 85,
+      "key": "恋、はじめました。",
+      "title": "恋、はじめました。",
+      "priority": 1,
+      "rank": "△",
+      "kind": "新しめ・現場合わせ",
+      "summaryHtml": "英語MIXなどを入れられる構造だが、現行資料にはイメージを含む箇所あり。定着途上なので現場優先。",
+      "tags": [],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "恋、はじめました。 △ 新しめ・現場合わせ 英語mixなどを入れられる構造だが、現行資料にはイメージを含む箇所あり。定着途上なので現場優先。   ",
+      "source": {
+        "url": "https://ikorabucall.com/koi-hajimemashita-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 86,
+      "key": "夏名残サマーチューン",
+      "title": "夏名残サマーチューン",
+      "priority": 0,
+      "rank": "○",
+      "kind": "軽いレス＋振り",
+      "summaryHtml": "「wow oh」と簡単なレス＋サビ振りコピ。まだ更新途上のため安全側に。",
+      "tags": [
+        "参加型"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": false,
+        "participation": true
+      },
+      "colorChip": null,
+      "searchText": "夏名残サマーチューン ○ 軽いレス＋振り 「wow oh」と簡単なレス＋サビ振りコピ。まだ更新途上のため安全側に。  参加型 ",
+      "source": {
+        "url": "https://ikorabucall.com/natsunagori-summer-tune-call/",
+        "label": "参考リンクを開く"
+      }
+    },
+    {
+      "id": 87,
+      "key": "夢の続き",
+      "title": "夢の続き",
+      "priority": 0,
+      "rank": "―",
+      "kind": "コールなし寄り",
+      "summaryHtml": "現時点でコールなし。",
+      "tags": [
+        "コール薄め"
+      ],
+      "flags": {
+        "generic": false,
+        "tiger": false,
+        "color": false,
+        "quiet": true,
+        "participation": false
+      },
+      "colorChip": null,
+      "searchText": "夢の続き ― コールなし寄り 現時点でコールなし。  コール薄め ",
+      "source": {
+        "url": "https://ikorabucall.com/",
+        "label": "参考リンクを開く"
+      }
+    }
+  ]
+}

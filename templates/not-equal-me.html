@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+
+<html lang="ja"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/><meta content="light" name="color-scheme"/><meta content="#f5fffb" name="theme-color"/><title>≠ME 現場コールガイド</title><style>
+:root{--bg:#0d1117;--panel:#151b24;--panel2:#1c2430;--text:#eef3f8;--muted:#9ca8b7;--border:#2b3543;--accent:#72c7ff;--accent-soft:#142638;}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Sans","Yu Gothic UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+a{color:inherit}header{border-bottom:1px solid var(--border);background:linear-gradient(180deg,#151b24 0%,#0d1117 100%)}
+.header-inner,.controls,.guide-note-inner,main,footer{max-width:1160px;margin:0 auto;padding-left:12px;padding-right:12px}.header-inner{padding-top:17px;padding-bottom:13px}.header-row{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}h1{font-size:21px;margin:0 0 4px}header p{margin:0;color:var(--muted);font-size:11.5px}.back-home{display:inline-flex;align-items:center;gap:5px;min-height:34px;margin-bottom:10px;padding:6px 11px;border:1px solid var(--border);border-radius:999px;background:var(--panel);color:var(--text);text-decoration:none;font-size:11px;font-weight:800;-webkit-tap-highlight-color:transparent;transition:transform .12s ease,background .12s ease}.back-home:active{transform:scale(.97)}.back-home-arrow{font-size:18px;line-height:1}
+.count-chip{flex:0 0 auto;border:1px solid var(--border);border-radius:999px;background:var(--panel);color:#b9c6d4;font-size:10.5px;padding:6px 9px}
+.filter-toggle{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+.controls{position:sticky;top:0;z-index:30;background:rgba(13,17,23,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding-top:9px;padding-bottom:9px;border-bottom:1px solid var(--border)}.filters{display:flex;gap:7px;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}.filters::-webkit-scrollbar{display:none}.filter-btn{flex:0 0 auto;display:inline-flex;align-items:center;min-height:38px;border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:999px;padding:7px 11px;font-size:12.5px;white-space:nowrap;cursor:pointer;user-select:none}
+#filter-active:checked ~ main .song-card:not(.cat-active){display:none}#filter-participation:checked ~ main .song-card:not(.cat-participation){display:none}#filter-variable:checked ~ main .song-card:not(.cat-variable){display:none}#filter-mixed:checked ~ main .song-card:not(.cat-mixed){display:none}#filter-listen:checked ~ main .song-card:not(.cat-listen){display:none}#filter-unknown:checked ~ main .song-card:not(.cat-unknown){display:none}#filter-all:checked ~ .controls label[for="filter-all"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-active:checked ~ .controls label[for="filter-active"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-participation:checked ~ .controls label[for="filter-participation"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-variable:checked ~ .controls label[for="filter-variable"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-mixed:checked ~ .controls label[for="filter-mixed"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-listen:checked ~ .controls label[for="filter-listen"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}#filter-unknown:checked ~ .controls label[for="filter-unknown"]{background:var(--accent);border-color:var(--accent);color:#06101b;font-weight:900}
+.guide-note{background:var(--accent-soft);border-bottom:1px solid #284661}.guide-note-inner{padding-top:10px;padding-bottom:10px;font-size:11.5px;color:#c9d8e6}.guide-note strong{color:#dff3ff}.legend{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}.legend span{border:1px solid #2d4a63;border-radius:999px;padding:4px 7px;font-size:10px;background:#122233}
+
+main{padding-top:0;padding-bottom:18px}.render-note{margin:0 0 10px;color:var(--muted);font-size:10.5px}#songList{display:block}.song-batch{display:grid;grid-template-columns:1fr;gap:9px;margin:0 0 9px}.lazy-batch{content-visibility:auto;contain-intrinsic-size:auto 3200px;contain:layout paint style}.first-batch{content-visibility:visible}
+.song-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:13px;content-visibility:auto;contain-intrinsic-size:auto 340px;contain:layout paint style;scroll-margin-top:66px}.song-head{display:flex;gap:10px;align-items:flex-start}.song-num{flex:0 0 30px;height:30px;display:grid;place-items:center;border-radius:9px;background:var(--panel2);color:var(--muted);font-size:10.5px}.song-title-wrap{min-width:0;flex:1}h2{font-size:16px;line-height:1.35;margin:1px 0 7px;word-break:break-word}.badge-row{display:flex;flex-wrap:wrap;gap:5px}.status,.confidence{display:inline-flex;align-items:center;border-radius:999px;font-size:10.5px;line-height:1;padding:5px 7px}.confidence{background:#222a35;color:#aeb9c7;border:1px solid #343d4b}.status-active,.status-participation{background:#193627;color:#a6efbd;border:1px solid #28583c}.status-variable{background:#3b3219;color:#ffe28c;border:1px solid #6c5b25}.status-mixed{background:#3a2728;color:#ffbac1;border:1px solid #704047}.status-listen,.status-unknown{background:#2a2f38;color:#d3d8e0;border:1px solid #404854}
+.call-section,.field-note{margin-top:12px;padding-top:10px;border-top:1px solid #252d3a}.section-label{margin-bottom:5px;color:#9fb3c9;font-size:10.5px;font-weight:800;letter-spacing:.04em}ul{margin:0;padding-left:1.2em;font-size:13px}li+li{margin-top:4px}.field-note p{margin:0;font-size:12.5px;color:#c9d1dc}.actions{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:7px;margin-top:12px;align-items:stretch}.video-btn{display:flex;align-items:center;gap:10px;min-height:50px;border:1px solid #395878;border-radius:11px;background:#17283a;color:#d9efff;text-decoration:none;padding:7px 11px}.video-btn:hover{background:#1d3044}.video-btn .play{flex:0 0 31px;height:31px;border-radius:50%;display:grid;place-items:center;background:#d9efff;color:#102239;font-size:12px;padding-left:2px}.video-btn span:last-child{display:flex;flex-direction:column;line-height:1.25;min-width:0}.video-btn strong{font-size:13px}.video-btn small{margin-top:2px;color:#8fb3ce;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.source-btn{display:flex;align-items:center;justify-content:center;border:1px solid var(--border);border-radius:11px;background:var(--panel2);color:#b8c3d1;text-decoration:none;padding:0 10px;font-size:10.5px;white-space:nowrap}footer{padding-top:0;padding-bottom:30px;color:#7f8998;font-size:10.5px}
+
+@media(min-width:780px){.header-inner,.controls,.guide-note-inner,main,footer{padding-left:20px;padding-right:20px}.song-batch{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.song-card{display:flex;flex-direction:column}.actions{margin-top:auto;padding-top:12px}.filters{flex-wrap:wrap;overflow:visible}}
+@media(max-width:390px){.actions{grid-template-columns:1fr}.source-btn{min-height:38px}}
+
+
+
+/* CSS-only favorites / learned state / understanding meter */
+.state-toggle{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+body{counter-reset:learnedCount;--diamond-lit:#78cec6;--diamond-lit2:#a6e6df;--diamond-off:#26343d;--diamond-off2:#31424c}
+.learned-toggle-global:checked{counter-increment:learnedCount}
+header{--meter-angle:0deg}
+.header-row{align-items:flex-start}.header-row>div:first-child{min-width:0;flex:1 1 auto}
+.understanding-meter{flex:0 0 122px;width:122px;padding:1px 3px 0;text-align:center;user-select:none}
+.understanding-label{font-size:10px;font-weight:900;letter-spacing:.035em;color:#c9d7e2;white-space:nowrap}
+.understanding-count{margin-top:0;font-size:9px;line-height:1;color:#7f909f;font-weight:800}
+
+.diamond-meter{position:relative;width:84px;height:68px;margin:3px auto 2px;filter:drop-shadow(0 0 7px rgba(120,206,198,.08))}
+.diamond-progress{position:absolute;inset:0;clip-path:polygon(50% 0,84% 10%,100% 36%,50% 100%,0 36%,16% 10%);background:conic-gradient(from -90deg at 50% 43%,var(--diamond-lit) 0deg,var(--diamond-lit2) var(--meter-angle),var(--diamond-off) var(--meter-angle),var(--diamond-off2) 360deg)}
+.diamond-progress::after{content:"";position:absolute;inset:5px;clip-path:polygon(50% 0,84% 10%,100% 36%,50% 100%,0 36%,16% 10%);background:#111821}
+.diamond-inner{position:absolute;inset:8px 9px 7px;clip-path:polygon(50% 0,82% 9%,100% 34%,50% 100%,0 34%,18% 9%);background:linear-gradient(180deg,rgba(120,206,198,.12),rgba(120,206,198,.025));border:1px solid rgba(120,206,198,.12)}
+.diamond-brand{position:absolute;left:50%;top:18%;transform:translateX(-50%);font-size:14px;line-height:1;font-weight:950;font-style:italic;letter-spacing:-.11em;padding-right:.11em;color:#536e72;text-shadow:0 0 7px rgba(120,206,198,.1)}
+.diamond-facet{position:absolute;height:1px;background:#4b6469;transform-origin:center;opacity:.8}.facet-a{width:54%;left:23%;top:39%}.facet-b{width:45%;left:3%;top:49%;transform:rotate(61deg)}.facet-c{width:45%;right:3%;top:49%;transform:rotate(-61deg)}
+.diamond-complete{position:absolute;inset:0;display:grid;place-items:center;padding-top:5px;font-size:9.5px;line-height:1;font-weight:1000;letter-spacing:.035em;color:#f3c64f;text-shadow:0 0 6px rgba(243,198,79,.55),0 1px 0 #5f4812;opacity:0;transform:scale(.86)}
+.song-head{position:relative;align-items:flex-start}.song-title-wrap{min-width:0;flex:1 1 auto}.card-state-actions{flex:0 0 auto;display:flex;align-items:center;gap:6px;margin-left:auto;padding-left:4px}
+.fav-btn,.learned-btn{display:inline-flex;align-items:center;justify-content:center;min-height:34px;border:1px solid #354252;background:#1a222d;color:#aeb9c7;border-radius:10px;cursor:pointer;user-select:none;transition:background .12s ease,border-color .12s ease,color .12s ease,transform .12s ease}
+.fav-btn{width:36px;font-size:21px;line-height:1;padding-bottom:2px}.learned-btn{min-width:54px;padding:0 9px;font-size:11px;font-weight:900;white-space:nowrap}.fav-btn:active,.learned-btn:active{transform:scale(.96)}
+.fav-toggle:checked ~ .song-head .fav-btn{background:#3c3215;border-color:#8b7426;color:#ffd75a;font-size:0}.fav-toggle:checked ~ .song-head .fav-btn::before{content:"★";font-size:20px;line-height:1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:430px){h1{font-size:19px}.header-inner{padding-top:13px;padding-bottom:10px}.understanding-meter{flex-basis:106px;width:106px}.diamond-meter{width:76px;height:61px;margin-top:2px}.understanding-label{font-size:9px}.card-state-actions{gap:5px}.fav-btn{width:34px;min-height:32px}.learned-btn{min-width:50px;min-height:32px;padding:0 7px;font-size:10.5px}}
+
+/* ===== ≠ME UI refresh : mint green / light ===== */
+:root{
+  --bg:#f5fffb;
+  --panel:rgba(255,255,255,.92);
+  --panel2:#eefaf6;
+  --text:#2f3142;
+  --muted:#74827d;
+  --border:#d5ebe4;
+  --accent:#58c9ad;
+  --accent2:#87d9c6;
+  --accent-dark:#318b75;
+  --accent-soft:#effbf7;
+}
+html{background:#f5fffb;color-scheme:light}
+body{
+  background:
+    radial-gradient(circle at 6% 3%,rgba(88,201,173,.20) 0%,transparent 28%),
+    radial-gradient(circle at 94% 10%,rgba(163,232,216,.23) 0%,transparent 28%),
+    radial-gradient(circle at 50% 100%,rgba(229,247,240,.72) 0%,transparent 32%),
+    linear-gradient(145deg,#f8fffc 0%,#fbfffd 48%,#f4fbf8 100%);
+  color:var(--text);
+}
+a{color:inherit}
+header{
+  background:rgba(255,255,255,.82);
+  border-bottom:1px solid #d9ece6;
+  box-shadow:0 7px 24px rgba(53,111,96,.07);
+  -webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px);
+}
+h1{color:#30343f;font-weight:850;letter-spacing:.015em}
+header p{color:var(--muted)}
+.count-chip{background:#fff;color:#60716b;border-color:#d7e9e3}
+.controls{
+  margin:10px 10px 0;
+  padding:11px 12px 10px;
+  border:1px solid #d5ebe4;
+  border-radius:20px;
+  background:rgba(255,255,255,.82);
+  box-shadow:0 9px 24px rgba(53,111,96,.08);
+  -webkit-backdrop-filter:blur(15px);backdrop-filter:blur(15px);
+}
+.filters{gap:7px}
+.filter-btn,.fav-btn,.learned-btn,.search-clear,.video-btn,.source-btn{
+  -webkit-tap-highlight-color:transparent;
+}
+.filter-btn{
+  background:rgba(255,255,255,.96);
+  color:#52635e;
+  border-color:#d3e8e1;
+  box-shadow:none;
+}
+#filter-all:checked ~ .controls label[for="filter-all"],
+#filter-active:checked ~ .controls label[for="filter-active"],
+#filter-participation:checked ~ .controls label[for="filter-participation"],
+#filter-variable:checked ~ .controls label[for="filter-variable"],
+#filter-mixed:checked ~ .controls label[for="filter-mixed"],
+#filter-listen:checked ~ .controls label[for="filter-listen"],
+#filter-unknown:checked ~ .controls label[for="filter-unknown"]{
+  background:#58c9ad;
+  border-color:#58c9ad;
+  color:#fff;
+  font-weight:900;
+  box-shadow:none;
+  outline:none;
+}
+.filter-btn:active,.filter-btn:focus,.learned-btn:active,.learned-btn:focus,.fav-btn:active,.fav-btn:focus,.search-clear:active,.search-clear:focus{outline:none}
+.search-block{padding-bottom:8px}
+.search-row{display:grid;grid-template-columns:minmax(0,1fr) 46px;gap:7px}
+.song-search{
+  width:100%;min-height:44px;border:1px solid #d3e8e1;border-radius:12px;
+  background:rgba(255,255,255,.97);color:var(--text);font-size:16px;padding:0 12px;outline:none;
+  box-shadow:0 3px 10px rgba(53,111,96,.04)
+}
+.song-search::placeholder{color:#9aa8a3}
+.song-search:focus{border-color:#58c9ad;box-shadow:0 0 0 3px rgba(88,201,173,.13)}
+.search-clear{min-height:44px;border:1px solid #d3e8e1;border-radius:12px;background:#fff;color:#6e7c77;font-size:19px;cursor:pointer}
+.search-meta{display:flex;justify-content:space-between;gap:10px;padding:5px 2px 0;color:#87948f;font-size:10.5px}
+.search-hidden{display:none!important}
+.search-empty{display:none;margin:10px 0;padding:12px;border:1px dashed #bcded4;border-radius:12px;background:rgba(255,255,255,.72);color:#76847f;text-align:center}
+.search-empty.show{display:block}
+.guide-note{margin-top:10px;background:rgba(237,251,246,.88);border-top:1px solid #d2eae2;border-bottom:1px solid #d2eae2}
+.guide-note-inner{color:#53645e}
+.guide-note strong{color:#287662}
+.legend span{border-color:#c9e5dc;background:rgba(255,255,255,.78);color:#64726e}
+main{padding-top:10px}
+.render-note{color:var(--muted)}
+.song-batch{gap:11px}
+.song-card{
+  position:relative;overflow:hidden;
+  background:rgba(255,255,255,.94);
+  border-color:#d8ebe5;
+  border-radius:20px;
+  box-shadow:0 9px 23px rgba(53,111,96,.07);
+}
+.song-card::before{content:"";position:absolute;inset:0 auto 0 0;width:5px;background:linear-gradient(180deg,#58c9ad,#9be1d0);opacity:.88}
+.song-num{background:#eaf8f3;color:#398c77;border:1px solid #d1ece3;font-weight:800}
+h2{color:#30343f;font-weight:850}
+.confidence{background:#f4f7f6;color:#68756f;border-color:#dfe8e5}
+.status-active,.status-participation{background:#e2f7ef;color:#26725e;border-color:#bfe9dc}
+.status-variable{background:#fff4d8;color:#8b691a;border-color:#efdca8}
+.status-mixed{background:#fff0f0;color:#a04e55;border-color:#efcfd1}
+.status-listen,.status-unknown{background:#f4f6f6;color:#69736f;border-color:#dde4e2}
+.call-section,.field-note{border-top-color:#e1ece8}
+.section-label{color:#4a8f7e}
+.field-note p{color:#56615e}
+.video-btn{border-color:#bfe4da;background:#ecf9f5;color:#286f5d}
+.video-btn:hover{background:#e4f6f0}
+.video-btn .play{background:#58c9ad;color:#fff}
+.video-btn small{color:#6b9f91}
+.source-btn{border-color:#d3e6e0;background:#f8fcfa;color:#66736f}
+footer{color:#82908b}
+.fav-btn,.learned-btn{border-color:#d2e6e0;background:#fff;color:#6e7b77;box-shadow:0 3px 10px rgba(53,111,96,.04)}
+.fav-btn{color:#c8991f}
+.fav-toggle:checked ~ .song-head .fav-btn{background:#fff5cd;border-color:#edd581;color:#c49112;box-shadow:none}
+body{--diamond-lit:#58c9ad;--diamond-lit2:#87d9c6;--diamond-off:#e5efec;--diamond-off2:#dbe9e5}
+.understanding-label{color:#388d78}
+.understanding-count{color:#81918b}
+.diamond-meter{filter:drop-shadow(0 5px 10px rgba(49,139,117,.13))}
+.diamond-outline,.diamond-progress{position:absolute;clip-path:polygon(50% 0,84% 10%,100% 36%,50% 100%,0 36%,16% 10%)}
+.diamond-outline{inset:0;background:#72d0ba;z-index:0}
+.diamond-progress{inset:3px;z-index:1;background:conic-gradient(from 0deg at 50% 50%,var(--diamond-lit) 0deg var(--meter-angle),var(--diamond-off) var(--meter-angle) 360deg)!important;filter:none!important}
+.diamond-progress::after{display:none!important}
+.diamond-inner,.diamond-brand,.diamond-facet{display:none!important}
+.diamond-complete{z-index:10;color:#c79416;text-shadow:0 0 7px rgba(242,200,75,.35),0 1px 0 #fff}
+@media(min-width:780px){.controls{margin-left:auto;margin-right:auto}.song-card{border-radius:20px}}
+@media(max-width:430px){.controls{margin-left:8px;margin-right:8px}.understanding-label{font-size:9px}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Sticky top header: title + home button + Noimi gauge */
+header{position:sticky;top:0;z-index:40;}
+.controls{position:static;top:auto;z-index:auto;}
+.header-title-block .back-home{margin-top:6px;margin-bottom:0;}
+
+/* Data-driven learned state */
+.song-card.is-learned .learned-btn{background:#17392f;border-color:#2f7763;color:#a9f0d8;box-shadow:inset 0 0 0 1px rgba(120,206,198,.08)}.song-card.is-learned{border-color:#335a54}
+</style></head>
+<body>{{LEARNED_INPUTS}}
+<input checked="" class="filter-toggle" id="filter-all" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-active" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-participation" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-variable" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-mixed" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-listen" name="song-filter" type="radio"/>
+<input class="filter-toggle" id="filter-unknown" name="song-filter" type="radio"/>
+<header><div class="header-inner"><div class="header-row"><div class="header-title-block"><h1>≠ME 現場コールガイド</h1><a class="back-home" href="../"><span class="back-home-arrow">‹</span><span>トップページに戻る</span></a></div><div aria-label="ノイミーゲージ" class="understanding-meter">
+<div class="understanding-label">ノイミーゲージ</div>
+<div aria-hidden="true" class="diamond-meter"><div class="diamond-outline"></div><div class="diamond-progress"></div><div class="diamond-complete">COMPLETE!</div></div>
+<div class="understanding-count"></div>
+</div></div></div></header>
+<section aria-label="絞り込み" class="controls"><div class="search-block"><div class="search-row" role="search"><input aria-label="曲名検索" autocomplete="off" class="song-search" id="songSearch" list="songSearchSuggestions" placeholder="曲名を検索（例：君僕 / きゅんかわ / PIC）" type="search"/><button aria-label="検索をクリア" class="search-clear" id="searchClear" type="button">×</button></div><div class="search-meta"><span id="searchCount">{{COUNT}}曲</span></div></div><div class="filters"><label class="filter-btn" for="filter-all">全{{COUNT}}曲</label><label class="filter-btn" for="filter-active">🟢 現役</label><label class="filter-btn" for="filter-participation">🟢 参加型</label><label class="filter-btn" for="filter-variable">🟡 現場差</label><label class="filter-btn" for="filter-mixed">🔴 非推奨あり</label><label class="filter-btn" for="filter-listen">⚪ 聴く寄り</label><label class="filter-btn" for="filter-unknown">⚪ 要確認</label></div></section>
+<section class="guide-note"><div class="guide-note-inner"><strong>このガイドの考え方：</strong> コールに決まった正解があるという前提ではなく、ネット上の情報やライブ映像、現場の様子などをもとに整理した一例です。公演や周囲の雰囲気によって変わることもあるため、その場に合わせて楽しむための参考としてご覧ください。<div class="legend"><span>🟢 現役／参加ポイントあり</span><span>🟡 公演・周囲で差</span><span>🔴 過去要素・慎重</span><span>⚪ 聴く寄り／要確認</span><span>更新：2026-09-25</span></div></div></section>
+<main>
+<div class="search-empty" id="searchEmpty">該当する曲がありません。別の表記や短いキーワードで検索してください。</div>
+<div id="songList">{{SONG_CARDS}}</div>
+</main>
+<footer>※ 現場のコールは公演・客層・アレンジで変化します。周囲とステージ演出を優先してください。</footer>
+<datalist id="songSearchSuggestions">{{DATALIST}}</datalist>
+<script>(() => {
+  const input = document.getElementById('songSearch');
+  const clear = document.getElementById('searchClear');
+  const count = document.getElementById('searchCount');
+  const empty = document.getElementById('searchEmpty');
+  const cards = [...document.querySelectorAll('.song-card')];
+  if (!input || !cards.length) return;
+
+  const kataToHira = s => s.replace(/[ァ-ヶ]/g, ch => String.fromCharCode(ch.charCodeAt(0) - 0x60));
+  const norm = s => kataToHira((s || '').normalize('NFKC').toLowerCase())
+    .replace(/[「」『』【】()（）\[\]{}｛｝<>〈〉《》“”\"'’‘・･,，.。!！?？#＃:：;；_\-—–〜~\/\\\s]/g, '');
+
+  const indexes = cards.map(card => {
+    const raw = [card.dataset.title || '', card.dataset.aliases || ''].join(' ');
+    const chunks = raw.split('|').map(norm).filter(Boolean);
+    chunks.push(norm(raw));
+    return [...new Set(chunks)];
+  });
+
+  const render = () => {
+    const raw = input.value.trim();
+    const tokens = raw.split(/\s+/).map(norm).filter(Boolean);
+    let shown = 0;
+    cards.forEach((card, i) => {
+      const ok = !tokens.length || tokens.every(t => indexes[i].some(k => k.includes(t)));
+      card.classList.toggle('search-hidden', !ok);
+      if (ok) shown++;
+    });
+    count.textContent = tokens.length ? `${shown}曲ヒット` : `${cards.length}曲`;
+    empty.classList.toggle('show', tokens.length > 0 && shown === 0);
+  };
+
+  input.addEventListener('input', render, {passive:true});
+  input.addEventListener('search', render, {passive:true});
+  clear.addEventListener('click', () => { input.value=''; render(); input.focus(); });
+  render();
+})();</script>{{METER_SCRIPT}}</body></html>
