@@ -8,6 +8,9 @@
     "verify:equal-love-page": "node scripts/verify-equal-love-page.mjs",
     "build:not-equal-me": "node scripts/build-not-equal-me.mjs",
     "verify:not-equal-me-search": "node scripts/verify-not-equal-me-search.mjs",
-    "verify:not-equal-me-page": "node scripts/verify-not-equal-me-page.mjs"
+    "verify:not-equal-me-page": "node scripts/verify-not-equal-me-page.mjs",
+    "build:nearly-equal-joy": "node scripts/build-nearly-equal-joy.mjs",
+    "verify:nearly-equal-joy-search": "node scripts/verify-nearly-equal-joy-search.mjs",
+    "verify:nearly-equal-joy-page": "node scripts/verify-nearly-equal-joy-page.mjs"
   }
 }

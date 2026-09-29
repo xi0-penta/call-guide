@@ -65,3 +65,19 @@ jobs:
           set -e
           git diff --exit-code -- not-equal-me/index.html generated/not-equal-me-song-batches.html
           echo "Generated Not Equal Me files are up to date."
+
+      - name: Build Nearly Equal Joy page
+        run: npm run build:nearly-equal-joy
+
+      - name: Verify Nearly Equal Joy search
+        run: npm run verify:nearly-equal-joy-search
+
+      - name: Verify Nearly Equal Joy page
+        run: npm run verify:nearly-equal-joy-page
+
+      - name: Verify generated Nearly Equal Joy files are current
+        shell: bash
+        run: |
+          set -e
+          git diff --exit-code -- nearly-equal-joy/index.html generated/nearly-equal-joy-song-cards.html
+          echo "Generated Nearly Equal Joy files are up to date."
