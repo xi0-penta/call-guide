@@ -35,7 +35,8 @@
     });
 
     const pct = total ? (learnedCount / total) * 100 : 0;
-    document.body.style.setProperty('--meter-progress', pct + '%');
+    const header = document.querySelector('header');
+    if (header) header.style.setProperty('--meter-progress', pct + '%');
 
     const count = document.querySelector('.understanding-count');
     if (count) count.textContent = learnedCount + ' / ' + total;
