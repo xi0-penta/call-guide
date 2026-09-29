@@ -1,0 +1,1898 @@
+{
+  "schemaVersion": 1,
+  "group": "not-equal-me",
+  "displayName": "≠ME",
+  "songs": [
+    {
+      "id": 1,
+      "key": "≠ME",
+      "title": "≠ME",
+      "aliases": [
+        "ノイミー",
+        "not equal me",
+        "notequalme",
+        "not_equal_me"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX（ファイボ・ワイパーまで入る現場あり）",
+        "Aメロ：歌唱メンバー名／超絶かわいい",
+        "Bメロ：1番は萌子4連 → イェッタイガー系。2番も歌割りに合わせた名前コール",
+        "2番前：日本語MIX",
+        "落ちサビ前：萌子4連 → 客席も「好きだー！」"
+      ],
+      "fieldNote": "節目で披露される“国歌”枠。2026年の専用コール表と最近のライブの両方で基本形が一致しており、全曲中でも現行性を判断しやすい。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E2%89%A0ME%205th%20Anniversary%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "公式LIVEを検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/n590355d43ff7",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 2,
+      "key": "「君の音だったんだ」",
+      "title": "「君の音だったんだ」",
+      "aliases": [
+        "君の音",
+        "君音",
+        "きみのおと",
+        "きみおと"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX",
+        "Aメロ：歌唱メンバー名／超絶かわいい",
+        "Bメロ：名前4連系",
+        "2番前：日本語MIX"
+      ],
+      "fieldNote": "2026年7月作成の専用コール表があり、横浜アリーナ夜公演でも披露。基本形はかなり固い。サビへの過剰な被せは控えめにする資料もある。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%80%8C%E5%90%9B%E3%81%AE%E9%9F%B3%E3%81%A0%E3%81%A3%E3%81%9F%E3%82%93%E3%81%A0%E3%80%8D%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/nf98274f9bd9b",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 3,
+      "key": "「君と僕の歌」",
+      "title": "「君と僕の歌」",
+      "aliases": [
+        "君僕",
+        "きみぼく",
+        "きみとぼくのうた",
+        "君と僕"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 現場観測優先"
+      },
+      "confidence": "中",
+      "calls": [
+        "歌詞のフレーズを追っかけるようなコールが中心になりやすい",
+        "通常の歌唱メンバー名コール",
+        "MIX相当の箇所は、フルのスタンダードMIXではなく「うりゃおい」を連続させる形が現場では聞こえる、という現場観測あり",
+        "周年終盤では歌そのものを聴く比重も高い"
+      ],
+      "fieldNote": "2026年7周年の締めにも使われた現役曲。ただし最近の詳細コール表が薄い。ユーザー現場記憶では『歌詞追っかけ＋名前、MIX部はうりゃおい連続』。ここは断定せず、最新映像で確認する前提。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%80%8C%E5%90%9B%E3%81%A8%E5%83%95%E3%81%AE%E6%AD%8C%E3%80%8D%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/02/51288/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 4,
+      "key": "クルクルかき氷",
+      "title": "クルクルかき氷",
+      "aliases": [
+        "クルかき",
+        "かき氷",
+        "くるくるかきごおり"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "中",
+      "calls": [
+        "1番前：スタンダードMIX",
+        "2番前：倍速日本語MIXとして扱う資料あり",
+        "曲内レス：「ちゃって」「Oh baby」「wow wow wow wow」「どうよ？」「3,2,1 GO!」「す、好き！」等を曲に合わせる",
+        "間奏はフリースタイル扱いの資料もあるが、特殊MIXは現行標準として固定しない"
+      ],
+      "fieldNote": "2026アリーナツアーでも披露。現場レポでも『コールが楽しい』とされる。難解な間奏MIXより、スタンダード・倍速日本語・曲内レスをコアとするのが安全。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%82%AF%E3%83%AB%E3%82%AF%E3%83%AB%E3%81%8B%E3%81%8D%E6%B0%B7%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 5,
+      "key": "空白の花",
+      "title": "空白の花",
+      "aliases": [
+        "空白",
+        "くうはくのはな"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本は聴く曲。現行定番として強く裏付けられるMIX・口上は確認できず",
+        "ペンライトは歴史的に白が定番とされてきた",
+        "ただし2026年7周年では公演演出として冨田菜々風の緑で会場を染めたという現場レポあり"
+      ],
+      "fieldNote": "色文化は『常に白』と固定しない方が安全。通常時の慣習と、その日の演出を分けて考える。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E7%A9%BA%E7%99%BD%E3%81%AE%E8%8A%B1%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/skka770/n/ndb8b62a1dc61",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 6,
+      "key": "P.I.C.",
+      "title": "P.I.C.",
+      "aliases": [
+        "PIC",
+        "P I C",
+        "ピーアイシー"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く・見る寄り"
+      },
+      "confidence": "高",
+      "calls": [
+        "基本はパフォーマンスを見る曲",
+        "曲中の自然な「Hey!」等は合わせられる",
+        "スタンダードMIXを積極的に入れる曲としての現行根拠は弱い"
+      ],
+      "fieldNote": "2025初心者向けツアーガイドでも『マジで何も言うことない、推しメンをみましょう』とされる。披露頻度は高いがコール曲ではない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20P.I.C.%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/kisyootaku/n/n032ec01a0faf",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 7,
+      "key": "自分賛歌",
+      "title": "自分賛歌",
+      "aliases": [
+        "じぶんさんか",
+        "自分讃歌"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 フリコピ・参加型"
+      },
+      "confidence": "高",
+      "calls": [
+        "基本は振りコピ中心",
+        "サビはリズムに合わせて客席も軽くジャンプすることが多い",
+        "合唱は2026年アリーナツアーのラスサビで見られた形で、通常時の定番ではない",
+        "名前コールは歌割りや周囲に合わせる程度"
+      ],
+      "fieldNote": "通常は「みんなで歌う曲」というより、振りコピしながらサビで軽く跳ねて一体感を作る曲。2026年アリーナツアーのラスサビ合唱はその公演での演出として分けて扱う。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E8%87%AA%E5%88%86%E8%B3%9B%E6%AD%8C%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/07/56782/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 8,
+      "key": "ポニーテール キュルン",
+      "title": "ポニーテール キュルン",
+      "aliases": [
+        "ポニーテールキュルン",
+        "ポニキュル",
+        "キュルン"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "中",
+      "calls": [
+        "1番前：スタンダードMIX",
+        "2番前：日本語MIX",
+        "間奏：ガチ恋口上がライブで定着した代表的ポイント",
+        "高度な多言語・可変派生は現行標準としては扱わない"
+      ],
+      "fieldNote": "ガチ恋口上は実際のライブ文化として強い。ネット上には派生MIXも多いが、まず定型ガチ恋を押さえるのが実用的。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%9D%E3%83%8B%E3%83%BC%E3%83%86%E3%83%BC%E3%83%AB%20%E3%82%AD%E3%83%A5%E3%83%AB%E3%83%B3%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 9,
+      "key": "てゆーか、みるてんって何？",
+      "title": "てゆーか、みるてんって何？",
+      "aliases": [
+        "みるてん",
+        "てゆーかみるてん",
+        "みるてんって何",
+        "みるてんってなに"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 コア現役 / 🟡 派生注意"
+      },
+      "confidence": "中",
+      "calls": [
+        "曲中の「みるてん」等のレスポンスが最重要",
+        "1番側スタンダードMIX、2番側日本語MIXを入れる型はコール資料で見られる",
+        "しおりん・ななてん等の曲内メンバー呼びは楽曲に合わせる",
+        "ヨルバ等の難解派生MIXはネット上に存在するが、現行標準にはしない"
+      ],
+      "fieldNote": "この曲は“曲そのものに組み込まれたレス”を最優先。ライブ尺・アレンジでMIXの入る小節が変わる場合もある。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%A6%E3%82%86%E3%83%BC%E3%81%8B%E3%80%81%E3%81%BF%E3%82%8B%E3%81%A6%E3%82%93%E3%81%A3%E3%81%A6%E4%BD%95%EF%BC%9F%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 10,
+      "key": "秘密インシデント",
+      "title": "秘密インシデント",
+      "aliases": [
+        "秘密",
+        "インシデント",
+        "ひみつインシデント"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：スタンダードMIX",
+        "Aメロ：歌唱メンバー名",
+        "Bメロ：1番は萌子4連、2番はきらりん系",
+        "サビ：曲に合わせた定番のはい／ふわふわ系",
+        "2番前：日本語MIX、Cメロに名前4連"
+      ],
+      "fieldNote": "2026年の専用コール表があり、現在もライブ定番。基本形はかなり確認しやすい。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E7%A7%98%E5%AF%86%E3%82%A4%E3%83%B3%E3%82%B7%E3%83%87%E3%83%B3%E3%83%88%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/ncff7416ecbdb",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 11,
+      "key": "君はこの夏、恋をする",
+      "title": "君はこの夏、恋をする",
+      "aliases": [
+        "君夏",
+        "夏恋",
+        "君はこの夏恋をする",
+        "きみはこのなつこいをする"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 コア現役 / 🟡 上級注意"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：ミョーホントゥスケ広場 → スタンダードMIX（ファイボ・ワイパーまで入る型）",
+        "2番前：日本語MIX",
+        "名前コール・自然なレスを曲に合わせる",
+        "2Aのビスマルク等を載せる資料もあるが、上級・現場差として扱う"
+      ],
+      "fieldNote": "2026年にもイントロのミョーホントゥスケ連呼について質問が出るほど特徴的。ビスマルク等までを初心者の必須にはしない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%90%9B%E3%81%AF%E3%81%93%E3%81%AE%E5%A4%8F%E3%80%81%E6%81%8B%E3%82%92%E3%81%99%E3%82%8B%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://www.idol-info.site/natsu-koi/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 12,
+      "key": "ミラクル！",
+      "title": "ミラクル！",
+      "aliases": [
+        "ミラクル",
+        "miracle"
+      ],
+      "category": "unknown",
+      "status": {
+        "className": "status-unknown",
+        "label": "⚪ 要動画確認"
+      },
+      "confidence": "低",
+      "calls": [
+        "応援歌としてのフリコピ・一体感が中心",
+        "現行の標準MIXを細部まで裏付ける新しい資料は薄い",
+        "名前コールや自然な掛け声は周囲に合わせる"
+      ],
+      "fieldNote": "2024〜2025の公演でも披露されているが、最近の詳細コール表が見つかりにくい。無理に古いMIXを固定せず、動画確認を優先。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%EF%BC%81%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/light_eagle800/n/n8c3aadf59996",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 13,
+      "key": "薄明光線",
+      "title": "薄明光線",
+      "aliases": [
+        "薄明",
+        "はくめいこうせん"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本は歌・表現を聴く曲",
+        "定番MIXや長い口上を入れる根拠は弱い",
+        "自然な歓声以外は無理に足さない"
+      ],
+      "fieldNote": "2026年7周年でもオリジナルメンバーで披露。現場レポは歌唱・表現を受け取る内容が中心で、コール曲としての性格は薄い。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E8%96%84%E6%98%8E%E5%85%89%E7%B7%9A%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/02/51288/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 14,
+      "key": "超絶ヒロイン",
+      "title": "超絶ヒロイン",
+      "aliases": [
+        "ヒロイン",
+        "ちょうぜつヒロイン"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 名前・フリ中心"
+      },
+      "confidence": "低",
+      "calls": [
+        "名前コール／超絶かわいい系は入りやすい",
+        "フリコピで楽しむ比重が高い",
+        "現在の標準として固定できる長いMIXは裏取り不足"
+      ],
+      "fieldNote": "2025ツアー、2026アリーナでも披露。現場レポでは『コールできる』『踊れる』曲として楽しまれているが、細かい型は最新映像確認推奨。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E8%B6%85%E7%B5%B6%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/sm_km_99/n/nbb7799b14d85",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 15,
+      "key": "まほろばアスタリスク",
+      "title": "まほろばアスタリスク",
+      "aliases": [
+        "まほろば",
+        "アスタリスク"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 現場差あり"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX",
+        "Bメロ：イェッタイガー系が入る型あり",
+        "2番前：日本語MIX",
+        "アウトロ：銀河口上は比較的残っている",
+        "間奏：銀河キャンセル→スペイン→混沌／逆混沌等の資料もあるが、現在はかなり慎重"
+      ],
+      "fieldNote": "資料にあることと『今みんなが打つ』は別。間奏銀河・混沌系は賛否が強く、最近はアウトロだけ／どちらも控える現場もある。最新映像と周囲優先。",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=_dlL0aimCL4",
+        "label": "ライブ映像で確認",
+        "note": "5th Anniversary 公式LIVE"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/n4c05bda4184f",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 16,
+      "key": "好きだ！！！",
+      "title": "好きだ！！！",
+      "aliases": [
+        "好きだ",
+        "すきだ"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役 / 🟡 上級あり"
+      },
+      "confidence": "高",
+      "calls": [
+        "Aメロ：名前コール／超絶かわいい",
+        "「3,2,1! Go!」「いいよー！」等の曲内レス",
+        "通常MIXが入るポイントあり",
+        "アイヌ日可変などを載せる資料もあるが、上級要素として扱う"
+      ],
+      "fieldNote": "2026年のコール解説あり。まず名前・曲内レス・通常MIXまでで十分。高度な可変系は現場を見て。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%A5%BD%E3%81%8D%E3%81%A0%EF%BC%81%EF%BC%81%EF%BC%81%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://www.idol-info.site/sukida/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 17,
+      "key": "ワタシアクセント",
+      "title": "ワタシアクセント",
+      "aliases": [
+        "ワタアクセ",
+        "アクセント",
+        "わたしアクセント"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 曲内コールあり"
+      },
+      "confidence": "高",
+      "calls": [
+        "歌詞の「showing」の箇所を、そのまま「showing」とコールすることが多い",
+        "「showing」が意図的に「しおりん」と聞こえる構造で、「しおりん」と言う人もいる",
+        "showing／しおりんのどちらを言うかに明確な決まりはない",
+        "しおり推しは歌詞を理解した上で、あえて「しおりん」とコールしたくなることもある"
+      ],
+      "fieldNote": "ダンスを見る比重も高い曲だが、現場では「showing」の箇所が分かりやすい参加ポイント。歌詞どおりでも「しおりん」でも、周囲と本人の楽しみ方に合わせる。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%AF%E3%82%BF%E3%82%B7%E3%82%A2%E3%82%AF%E3%82%BB%E3%83%B3%E3%83%88%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/t_k_s__/n/nd42fadbd67aa",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 18,
+      "key": "誰もいない森の奥で一本の木が倒れたら音はするか？",
+      "title": "誰もいない森の奥で一本の木が倒れたら音はするか？",
+      "aliases": [
+        "誰森",
+        "だれもり",
+        "誰もいない森",
+        "一本の木",
+        "音はするか"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "歌唱・メッセージを聴く曲",
+        "定番MIX・口上は現行根拠が薄い",
+        "自然な歓声以外は入れすぎない"
+      ],
+      "fieldNote": "2026年7周年でオリジナルメンバーによるフル披露。現場レポは気迫・歌唱に聴き入る内容が中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E8%AA%B0%E3%82%82%E3%81%84%E3%81%AA%E3%81%84%E6%A3%AE%E3%81%AE%E5%A5%A5%E3%81%A7%E4%B8%80%E6%9C%AC%E3%81%AE%E6%9C%A8%E3%81%8C%E5%80%92%E3%82%8C%E3%81%9F%E3%82%89%E9%9F%B3%E3%81%AF%E3%81%99%E3%82%8B%E3%81%8B%EF%BC%9F%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/skka770/n/ndb8b62a1dc61",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 19,
+      "key": "チョコレートメランコリー",
+      "title": "チョコレートメランコリー",
+      "aliases": [
+        "チョコメラ",
+        "チョコレート",
+        "メランコリー"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 演出・歌を聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本は劇的なパフォーマンスを観る曲",
+        "ネット上には倍速ドイツ語など特殊MIX案も存在するが、作成者自身の遊び要素が強く現行標準にはしない",
+        "セリフ・局所的な歓声は自然に入る"
+      ],
+      "fieldNote": "2026年に6周年LIVE映像が公式公開。高度な地下MIXを採用するより、まず公式映像の客席音を確認したい曲。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%E3%83%A1%E3%83%A9%E3%83%B3%E3%82%B3%E3%83%AA%E3%83%BC%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 20,
+      "key": "君はスパークル",
+      "title": "君はスパークル",
+      "aliases": [
+        "君スパ",
+        "スパークル",
+        "きみはスパークル"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本は歌詞とパフォーマンスを受け取る曲",
+        "名前コールや自然な声援はあり得るが、長い標準MIXを必須扱いしない",
+        "終盤・アンコールでの感情的な一体感が強い"
+      ],
+      "fieldNote": "2026年7周年でも披露。現在の詳細コール資料が薄く、聴く曲として扱うのが安全。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%90%9B%E3%81%AF%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AB%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nem_me/n/n580d2864f6fa",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 21,
+      "key": "虹が架かる瞬間",
+      "title": "虹が架かる瞬間",
+      "aliases": [
+        "虹がかかる瞬間",
+        "虹が掛かる瞬間",
+        "虹",
+        "瞬間"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "高",
+      "calls": [
+        "基本は聴く寄り",
+        "定番MIXや客席合唱を前提にする曲ではない",
+        "自然な歓声や名前コールは、その日の空気に合わせる"
+      ],
+      "fieldNote": "2026年7周年アンコールでも披露された重要曲。客席参加を強く作るより、楽曲とステージを受け取る比重が高い。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E8%99%B9%E3%81%8C%E6%9E%B6%E3%81%8B%E3%82%8B%E7%9E%AC%E9%96%93%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/midole_unlapin/n/n4d07fd8d5232",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 22,
+      "key": "#おふしょるにっと",
+      "title": "#おふしょるにっと",
+      "aliases": [
+        "おふしょるにっと",
+        "オフショルニット",
+        "おふしょる",
+        "オフショル"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 コアは通常 / 派生注意"
+      },
+      "confidence": "中",
+      "calls": [
+        "1番前：スタンダードMIXとして扱う資料あり",
+        "2番前：日本語MIX",
+        "メンバー名コール",
+        "間奏に古代エジプト系など特殊MIXを置く個人資料もあるが、現行標準としては採用しない"
+      ],
+      "fieldNote": "ネットには高度な創作MIXがあるため要注意。現行ガイドでは通常MIX＋名前までを安全圏とする。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%23%E3%81%8A%E3%81%B5%E3%81%97%E3%82%87%E3%82%8B%E3%81%AB%E3%81%A3%E3%81%A8%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 23,
+      "key": "す、好きじゃない！",
+      "title": "す、好きじゃない！",
+      "aliases": [
+        "す好きじゃない",
+        "好きじゃない",
+        "すきじゃない"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "冒頭：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX",
+        "Aメロ：歌唱メンバー名／超絶かわいい",
+        "Bメロ：名前2連 → 『えびばで Let's go!』",
+        "サビ：『Need you! / Say! Yes!』『Just you! / Say! Yes!』系",
+        "2番前：日本語MIX。落ちサビ前『だってだって、だーって!!!』"
+      ],
+      "fieldNote": "2026年専用表あり。高度なアイヌ日可変などを載せる資料もあるが、基本形だけで十分楽しめる。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%99%E3%80%81%E5%A5%BD%E3%81%8D%E3%81%98%E3%82%83%E3%81%AA%E3%81%84%EF%BC%81%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/nc28a8902f28d",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 24,
+      "key": "僕たちのイマージュ",
+      "title": "僕たちのイマージュ",
+      "aliases": [
+        "イマージュ",
+        "ぼくたちのイマージュ"
+      ],
+      "category": "unknown",
+      "status": {
+        "className": "status-unknown",
+        "label": "⚪ 要動画確認"
+      },
+      "confidence": "低",
+      "calls": [
+        "現行の詳細コール表を十分に確認できず",
+        "名前コール／自然なレスは周囲に合わせる",
+        "長い特殊MIXは現行標準として扱わない"
+      ],
+      "fieldNote": "2025特別公演や2026サンリオ公演などでも披露されるが、最近の“定型コール”資料が薄い。ライブ映像優先。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%83%95%E3%81%9F%E3%81%A1%E3%81%AE%E3%82%A4%E3%83%9E%E3%83%BC%E3%82%B8%E3%83%A5%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/occur/n/n2bd2d924644c",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 25,
+      "key": "サマーチョコレート",
+      "title": "サマーチョコレート",
+      "aliases": [
+        "サマチョコ",
+        "チョコレート"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 曲内レス中心"
+      },
+      "confidence": "中",
+      "calls": [
+        "『やったー』『買い出し』『お願い』等、歌詞に組み込まれたレスを合わせる",
+        "オリジナルユニット時は『ひぃちゃん』『さややん』等の名前コール",
+        "全員版・シャッフルではその日の歌唱メンバーに合わせる",
+        "特殊なアウトロMIX案は現行標準にしない"
+      ],
+      "fieldNote": "5周年公式レポでも名前コールの一体感が確認される。曲内レス＋歌唱メンバー名が安全。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%81%E3%83%A7%E3%82%B3%E3%83%AC%E3%83%BC%E3%83%88%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 26,
+      "key": "こちらハッピー探検隊",
+      "title": "こちらハッピー探検隊",
+      "aliases": [
+        "ハッピー探検隊",
+        "探検隊"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 専用レス現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：『か！わ！ぐ！ち！夏音隊長！』",
+        "『はいはい！うーはいはいはーい！』",
+        "1〜6のハッピー条件をカウントする専用レス",
+        "サビも定番レス・手拍子・振りコピ中心"
+      ],
+      "fieldNote": "2026年の専用解説があり、難しいMIXより曲固有レスが本体。初心者でも入りやすい。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%93%E3%81%A1%E3%82%89%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC%E6%8E%A2%E6%A4%9C%E9%9A%8A%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://www.idol-info.site/happy-expedition/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 27,
+      "key": "はにかみショート",
+      "title": "はにかみショート",
+      "aliases": [
+        "はにショ",
+        "はにかみ"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "冒頭：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX",
+        "Aメロ：歌唱メンバー名／超絶かわいい",
+        "Bメロ：オーイング",
+        "サビ：『Wow oh oh!』を客席で合わせる",
+        "2番前：日本語MIX"
+      ],
+      "fieldNote": "『Wow oh oh』とオーイングが特に分かりやすい。最近のコール資料でも基本形のブレが小さい。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%AF%E3%81%AB%E3%81%8B%E3%81%BF%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/nb716bce85861",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 28,
+      "key": "桃色デイブレイク",
+      "title": "桃色デイブレイク",
+      "aliases": [
+        "桃色",
+        "デイブレイク"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ パフォーマンス寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本は櫻井ももの歌唱・パフォーマンスを浴びる曲",
+        "名前コール・自然な歓声は入る",
+        "現在の標準として強く裏付けられる長いMIXは確認不足"
+      ],
+      "fieldNote": "2026年7周年、2025ツアーでも披露。レポは歌唱力・シャウト・演出を語るものが中心。無理にコールを作らない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%A1%83%E8%89%B2%E3%83%87%E3%82%A4%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AF%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/10fuyu/n/nc95c2a991510",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 29,
+      "key": "ピオニーズ",
+      "title": "ピオニーズ",
+      "aliases": [
+        "ピオニー",
+        "peonies"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り / 赤文化"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本はデュエットの歌唱を聴く",
+        "5周年では会場が自然に赤ペンライトで染まったという現場文化あり",
+        "定番MIXを無理に足さない"
+      ],
+      "fieldNote": "萌子×菜々風の歌唱を見せる色が強い。色文化は公演・シャッフルで変わり得るため絶対指定にはしない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%94%E3%82%AA%E3%83%8B%E3%83%BC%E3%82%BA%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/58/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 30,
+      "key": "ウルトラレアキッス",
+      "title": "ウルトラレアキッス",
+      "aliases": [
+        "ウルトラレア",
+        "レアキッス",
+        "ウルレア"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 専用レス現役"
+      },
+      "confidence": "中",
+      "calls": [
+        "曲中の『なんでやねん！』『そうなの!?』『UR!』等を合わせる",
+        "『はいはい！』『はいせーの！』等の曲内レス",
+        "終盤の『ありがとー！』『はーい！』も楽しい参加ポイント",
+        "ガチ恋口上が入る現場もあり、7周年レポでも『コールやガチ恋』が楽しい曲として言及"
+      ],
+      "fieldNote": "歌詞そのものにレスの余白が多いので、特殊MIXより曲固有の掛け合いが優先。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%83%AC%E3%82%A2%E3%82%AD%E3%83%83%E3%82%B9%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/eieio_02/n/n770a9f579bef",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 31,
+      "key": "天使は何処へ",
+      "title": "天使は何処へ",
+      "aliases": [
+        "天使はどこへ",
+        "天使",
+        "何処へ"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 見る寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本はダンス・表情・演出を見る曲",
+        "自然な歓声や名前コールは入る",
+        "現行標準の長いMIXは裏取り不足"
+      ],
+      "fieldNote": "現在もライブで使われるが、カッコいいパフォーマンスを見せる曲としての言及が中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%A4%A9%E4%BD%BF%E3%81%AF%E4%BD%95%E5%87%A6%E3%81%B8%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/79/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 32,
+      "key": "このままでモーメンタリ",
+      "title": "このままでモーメンタリ",
+      "aliases": [
+        "モーメンタリ",
+        "このままで"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "歌詞と歌唱を聴く曲",
+        "自然な名前コール・声援は周囲に合わせる",
+        "長いMIXを定番扱いする根拠は薄い"
+      ],
+      "fieldNote": "2026年7周年・アリーナツアーでも披露。センター蟹沢萌子の歌唱を受け取る曲としてのレポが多い。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%93%E3%81%AE%E3%81%BE%E3%81%BE%E3%81%A7%E3%83%A2%E3%83%BC%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AA%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/t_k_s__/n/nd42fadbd67aa",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 33,
+      "key": "マシュマロフロート",
+      "title": "マシュマロフロート",
+      "aliases": [
+        "マシュマロ",
+        "フロート"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 曲内レス現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "『ちゅるり ちゅるり』を客席で合わせるのが代表的",
+        "フリコピ・歌詞に沿った短いレス",
+        "特殊MIXより『ちゅるり』の一体感を優先"
+      ],
+      "fieldNote": "2026年7周年レポでも『ちゅるりちゅるり』『コール楽しい』と明記。曲内レス型としてかなり安全。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%9E%E3%82%B7%E3%83%A5%E3%83%9E%E3%83%AD%E3%83%95%E3%83%AD%E3%83%BC%E3%83%88%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/t_k_s__/n/nd42fadbd67aa",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 34,
+      "key": "2時半ろけんろー",
+      "title": "2時半ろけんろー",
+      "aliases": [
+        "二時半ろけんろー",
+        "2時半ロケンロー",
+        "二時半ロケンロー",
+        "ろけんろー"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 曲内レス現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "『What's your name?』→『みるてん』／『しおりんです』等の曲内レス",
+        "にゃんにゃん系の掛け合い",
+        "ユニットメンバー名を楽曲に合わせる"
+      ],
+      "fieldNote": "5周年公式レポでも“にゃんにゃんコール”で盛り上がる曲として扱われた。難しいMIXより曲固有レス。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%202%E6%99%82%E5%8D%8A%E3%82%8D%E3%81%91%E3%82%93%E3%82%8D%E3%83%BC%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/58/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 35,
+      "key": "想わせぶりっこ",
+      "title": "想わせぶりっこ",
+      "aliases": [
+        "思わせぶりっこ",
+        "想わせぶり",
+        "ぶりっこ"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 コア現役 / MIXは編曲依存"
+      },
+      "confidence": "高",
+      "calls": [
+        "曲内の『ねこみみ！』等のレスが強い",
+        "名前コール・振りコピ",
+        "ネット上には始動なし倍速スタンダード／倍速日本語／米MIX等の案あり",
+        "ライブ特別版では米MIXが入らない、と2025ツアーガイドが注意"
+      ],
+      "fieldNote": "曲のアレンジでMIX尺が変わる代表例。まず曲内レスを優先し、高度MIXはその日の音源を聞いて判断。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%83%B3%E3%82%8F%E3%81%9B%E3%81%B6%E3%82%8A%E3%81%A3%E3%81%93%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/kisyootaku/n/n032ec01a0faf",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 36,
+      "key": "フロアキラー",
+      "title": "フロアキラー",
+      "aliases": [
+        "フロア",
+        "キラー"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ ダンス寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本はダンス・パフォーマンスを楽しむ曲",
+        "自然な歓声・名前コールは入る",
+        "現行定番の長いMIXは十分に確認できず"
+      ],
+      "fieldNote": "2025ツアー、2026年7周年でも披露。コールよりステージを見る内容の現場レポが中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%95%E3%83%AD%E3%82%A2%E3%82%AD%E3%83%A9%E3%83%BC%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/79/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 37,
+      "key": "月下美人",
+      "title": "月下美人",
+      "aliases": [
+        "月下",
+        "げっかびじん"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本はユニットの歌唱を聴く",
+        "自然な歓声以外は入れすぎない",
+        "標準MIXを入れる曲としての現行根拠は弱い"
+      ],
+      "fieldNote": "5周年などのレポも“熱唱”の印象が中心。動画で歌唱を確認する曲。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%9C%88%E4%B8%8B%E7%BE%8E%E4%BA%BA%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/58/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 38,
+      "key": "デートの後、22時",
+      "title": "デートの後、22時",
+      "aliases": [
+        "デートの後22時",
+        "22時",
+        "二十二時",
+        "デートのあと"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本は歌詞・余韻を聴く曲",
+        "歌唱メンバー名や自然な歓声は周囲に合わせる",
+        "現行標準として細かいMIXを裏付ける資料は薄い"
+      ],
+      "fieldNote": "2026横浜アリーナ夜アンコールでも披露。最近のレポは楽曲の余韻・物語性中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%87%E3%83%BC%E3%83%88%E3%81%AE%E5%BE%8C%E3%80%8122%E6%99%82%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/07/56782/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 39,
+      "key": "アンチコンフィチュール",
+      "title": "アンチコンフィチュール",
+      "aliases": [
+        "アンチコンフィ",
+        "コンフィチュール"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く・見る寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "まずはダンス・歌唱を見る",
+        "局所的な名前コール／『おい』が聞こえる可能性はある",
+        "現在の標準として詳細MIXを断定できる資料は不足"
+      ],
+      "fieldNote": "2026ツアーでも披露されるが、最新の信頼できる定型コール表が弱い。無理に古いコールを採用しない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%82%A2%E3%83%B3%E3%83%81%E3%82%B3%E3%83%B3%E3%83%95%E3%82%A3%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AB%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/42/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 40,
+      "key": "初恋カムバック",
+      "title": "初恋カムバック",
+      "aliases": [
+        "初恋",
+        "カムバック"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：ミョーホントゥスケ → 化繊飛除去 → ジャージャー／ファイボ／ワイパー → うりゃおい×4 → しゃーいくぞ → スタンダードMIX",
+        "A〜B：さややん等の名前コール／曲中の短い返し",
+        "2番前：うりゃおい×4 → しゃーいくぞ → 日本語MIX【倍速】",
+        "落ちサビ前：『さややん落ちサビ頑張って〜！』",
+        "アウトロ：定型ガチ恋口上 → 『世界で一番愛してる！／ア・イ・シ・テ・ル！』"
+      ],
+      "fieldNote": "ユーザー記憶どおりミョーホントゥスケ始動。ガチ恋は定型口上でOK。谷崎早耶がイヤモニを外して聞いたり応答するライブ文化もある。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%88%9D%E6%81%8B%E3%82%AB%E3%83%A0%E3%83%90%E3%83%83%E3%82%AF%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://www.idol-info.site/notequal-me-hatsukoi-comeback-call/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 41,
+      "key": "ヒロインとオオカミ",
+      "title": "ヒロインとオオカミ",
+      "aliases": [
+        "ヒロイン",
+        "オオカミ",
+        "おおかみ"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 標準コール"
+      },
+      "confidence": "高",
+      "calls": [
+        "名前コール・自然なレスで盛り上がる",
+        "曲中の「決闘だー！」等、ステージとの掛け合いを楽しむ",
+        "MIXはスタンダード／日本語の標準形で合わせればよい",
+        "派生MIXは現場ではほぼ聞かないため、基本形としては掲載しない"
+      ],
+      "fieldNote": "2026アリーナでも披露。高度な派生を覚える曲ではなく、標準MIX・名前・曲内レスを押さえる方が現場実態に近い。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%92%E3%83%AD%E3%82%A4%E3%83%B3%E3%81%A8%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 42,
+      "key": "偶然シンフォニー",
+      "title": "偶然シンフォニー",
+      "aliases": [
+        "シンフォニー",
+        "偶然"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役 / 🔴 混沌系注意"
+      },
+      "confidence": "高",
+      "calls": [
+        "Aメロ：歌唱メンバー名",
+        "サビの『好きだ…』に合わせて『はい！』×4",
+        "Cメロ：ひぃちゃん4連 → はにゃたん4連",
+        "ワールドカオス等を足す案は現在非推奨扱いの資料あり"
+      ],
+      "fieldNote": "2026年7月の専用コール表あり。初心者は名前＋サビの『はい！』で十分。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%81%B6%E7%84%B6%E3%82%B7%E3%83%B3%E3%83%95%E3%82%A9%E3%83%8B%E3%83%BC%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/n20a403780ea6",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 43,
+      "key": "Marcato",
+      "title": "Marcato",
+      "aliases": [
+        "marcato",
+        "マルカート"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く・見る寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "ユニットの歌唱・ダンスを見る曲",
+        "自然な名前コール／歓声は周囲に合わせる",
+        "現行定番として長いMIXを固定できる資料は薄い"
+      ],
+      "fieldNote": "2026アリーナ・2025公演でも披露。ライブレポはパフォーマンス中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20Marcato%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/46/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 44,
+      "key": "デート前夜レクイエム",
+      "title": "デート前夜レクイエム",
+      "aliases": [
+        "デート前夜",
+        "レクイエム"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟢 曲内レス / 🟡 地下MIX注意"
+      },
+      "confidence": "中",
+      "calls": [
+        "曲中の『Love you!』等、明示的なレスを優先",
+        "ネット上にはミョーホントゥスケ広場→スタンダード→倍速日本語などの高度構成案あり",
+        "サビの意味不アイアイ、2番以降の黒服・混沌等も個人コール表に存在",
+        "ただし高度MIX群は現在の標準としては採用せず、動画・周囲優先"
+      ],
+      "fieldNote": "“ネットにあるが現場標準とは限らない”の典型。曲内レスだけなら安全。特殊MIXを覚えるなら必ず直近動画で確認。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%87%E3%83%BC%E3%83%88%E5%89%8D%E5%A4%9C%E3%83%AC%E3%82%AF%E3%82%A4%E3%82%A8%E3%83%A0%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 45,
+      "key": "春の恋人",
+      "title": "春の恋人",
+      "aliases": [
+        "春恋",
+        "はるのこいびと"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 名前コール現役"
+      },
+      "confidence": "中",
+      "calls": [
+        "歌唱メンバー名コールが大きい",
+        "蟹沢萌子への連続コールが強く、2026現場では『萌子8連』の報告あり",
+        "通常MIXより名前を呼ぶ文化が目立つ"
+      ],
+      "fieldNote": "2024〜2026の現場レポで名前コールが育っている。特に萌子連続コールがこの曲の分かりやすい参加点。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%98%A5%E3%81%AE%E6%81%8B%E4%BA%BA%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/07/56782/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 46,
+      "key": "ラストチャンス、ラストダンス",
+      "title": "ラストチャンス、ラストダンス",
+      "aliases": [
+        "ラストチャンスラストダンス",
+        "ラスチャン",
+        "ラストダンス"
+      ],
+      "category": "mixed",
+      "status": {
+        "className": "status-mixed",
+        "label": "🟢 本体現役 / 🔴 若気非推奨"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：ミョーホントゥスケ → 化繊飛除去 → ジャージャー／ファイボー／ワイパー",
+        "続けて：うりゃおい×4 → クラップ → 『しゃーいかない』",
+        "Aメロ：歌唱メンバー名／超絶かわいい",
+        "Bメロ：1番 みるてん→萌子→しおりん、2番 ひぃちゃん→なつみん→きらりんを各2連",
+        "落ちサビ前：萌子4連 → みるてん4連前後 → しおりん倍速4連",
+        "旧アウトロ『若気の至り』系は現在かなり非推奨寄り"
+      ],
+      "fieldNote": "2026コール表でも『しゃーいかない』を確認。若気は以前定着していたが現在は否定的な反応が多く、メンバーのアウトロ煽りとぶつかるため避けるのが無難。",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=C9PZKQPonxM",
+        "label": "ライブ映像で確認",
+        "note": "5th Anniversary 公式LIVE"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/n64c72203d33a",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 47,
+      "key": "夏が来たから",
+      "title": "夏が来たから",
+      "aliases": [
+        "夏がきたから",
+        "夏来た",
+        "なつがきたから"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 コア現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：スタンダードMIX",
+        "2番前：日本語MIX",
+        "名前コール／自然なレス",
+        "アウトロに高度な日体大→花火等を載せる資料もあるが、2025ツアーでは観測なしとの報告"
+      ],
+      "fieldNote": "基本はスタンダード＋日本語で十分。ネット上の古い／高度アウトロは現行のデフォルトにしない。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%A4%8F%E3%81%8C%E6%9D%A5%E3%81%9F%E3%81%8B%E3%82%89%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/kisyootaku/n/n032ec01a0faf",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 48,
+      "key": "ごめん、マジで",
+      "title": "ごめん、マジで",
+      "aliases": [
+        "ごめんマジで",
+        "ごめマジ"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：スタンダードMIX（ファイボ・ワイパーまで入る型）",
+        "Aメロ：名前コール",
+        "Bメロ：しおりん4連など歌割りに沿った名前コール",
+        "2番前：倍速日本語MIXとして扱う資料あり",
+        "ネット上にガチ恋口上・真を分割する上級案もあるが、作成者自身『ほぼやらない』としている"
+      ],
+      "fieldNote": "2025ツアー本編締めでも使用。基本形と上級者の遊びを分ける。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%94%E3%82%81%E3%82%93%E3%80%81%E3%83%9E%E3%82%B8%E3%81%A7%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://www.idol-info.site/notequal-me-gomen-majide-call/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 49,
+      "key": "最強のラブソング",
+      "title": "最強のラブソング",
+      "aliases": [
+        "最強ラブソング",
+        "ラブソング"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 公式誘導型"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：『のいこるみー！』",
+        "Aメロ：『全開！』『ミュージック！』『だーれ？』『Yeah！』『確定！』等の短いレス",
+        "Bメロ：Three, two, one! に合わせたレス",
+        "サビ：『愛してる』『愛って何だ？』等への曲固有レス",
+        "Cメロ：『≠ME! Go for it! / Can do it!』『賛成！』『あいらーびゅー！』"
+      ],
+      "fieldNote": "通常MIXを足すより曲固有レスが本体。ライブではモニターにコール表示されることが多く、画面の公式誘導を最優先。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%9C%80%E5%BC%B7%E3%81%AE%E3%83%A9%E3%83%96%E3%82%BD%E3%83%B3%E3%82%B0%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/nb31e01ddd4ee",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 50,
+      "key": "モブノデレラ",
+      "title": "モブノデレラ",
+      "aliases": [
+        "モブデレラ",
+        "モブ",
+        "デレラ"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く・見る寄り"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本は歌・演出を見る",
+        "自然な名前コール／歓声は周囲に合わせる",
+        "2025初心者向け現場ガイドではコール薄めの扱い"
+      ],
+      "fieldNote": "大型ライブで頻繁に披露される現役曲だが、コール曲というよりパフォーマンス曲。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%83%A2%E3%83%96%E3%83%8E%E3%83%87%E3%83%AC%E3%83%A9%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/kisyootaku/n/n032ec01a0faf",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 51,
+      "key": "神様の言うとーり！",
+      "title": "神様の言うとーり！",
+      "aliases": [
+        "神様の言う通り",
+        "神様の言うとおり",
+        "神様",
+        "言うとーり"
+      ],
+      "category": "mixed",
+      "status": {
+        "className": "status-mixed",
+        "label": "⚪ 11人体制で要確認 / 旧メンコあり"
+      },
+      "confidence": "高",
+      "calls": [
+        "【旧12人体制】冒頭：うりゃおい×4 → クラップ → しゃーいくぞ → スタンダードMIX",
+        "Aメロ：名前／超絶かわいい、Bメロ：なつみん4連等 → イェッタイガー系",
+        "2番前：日本語MIX【倍速】",
+        "Cメロ：名前連続コール",
+        "【旧12人体制】Cメロ後：メンバー主導の12人名前呼びコール"
+      ],
+      "fieldNote": "菅波美玲卒業後はコール演出が変化。旧12人コールを続けたいファンと、11人体制のステージ上の『オイ！』煽りがぶつかった現場報告あり。運営の意図は断定せず、旧版は“歴史的コール”として残す。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E7%A5%9E%E6%A7%98%E3%81%AE%E8%A8%80%E3%81%86%E3%81%A8%E3%83%BC%E3%82%8A%EF%BC%81%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/n71560d1339f7",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 52,
+      "key": "カフェ樂園",
+      "title": "カフェ樂園",
+      "aliases": [
+        "カフェ楽園",
+        "カフェらくえん",
+        "cafe楽園",
+        "cafe rakuen"
+      ],
+      "category": "unknown",
+      "status": {
+        "className": "status-unknown",
+        "label": "⚪ 要動画確認"
+      },
+      "confidence": "低",
+      "calls": [
+        "2025ツアーの中核曲だが、現行の詳細定型コール表は十分に確認できず",
+        "歌詞中の『1.2.3 Get drunk』など自然に合わせられる箇所はある",
+        "通常MIX・特殊口上を無理に固定しない"
+      ],
+      "fieldNote": "曲自体は2025ツアー・2026年7周年でも現役。現状はライブ映像の客席音で確認するのが一番早い。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%82%AB%E3%83%95%E3%82%A7%E6%A8%82%E5%9C%92%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://not-equal-me.jp/discography/detail/80/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 53,
+      "key": "君を見かけた",
+      "title": "君を見かけた",
+      "aliases": [
+        "きみをみかけた",
+        "君見かけた"
+      ],
+      "category": "variable",
+      "status": {
+        "className": "status-variable",
+        "label": "🟡 新しめ・採用度要確認"
+      },
+      "confidence": "中",
+      "calls": [
+        "曲の感情表現を聴く比重が高い",
+        "ネット上には間奏8小節の『ガチ愛口上』案あり",
+        "ただしその資料は多数派を意図せず独自MIXを選ぶ方針で、現行定番とはみなさない",
+        "名前コール／自然なレスは周囲に合わせる"
+      ],
+      "fieldNote": "2025配信曲。『ガチ愛口上がネットにある』ことと『現場で普通に使う』ことを分離して扱う。要最新映像。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E5%90%9B%E3%82%92%E8%A6%8B%E3%81%8B%E3%81%91%E3%81%9F%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/punsukapoint/n/naedaad5d2966",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 54,
+      "key": "排他的ファイター",
+      "title": "排他的ファイター",
+      "aliases": [
+        "排他的",
+        "ファイター"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り / 🟡 サビ局所"
+      },
+      "confidence": "中",
+      "calls": [
+        "基本は聴く・見る曲という現場感",
+        "最近はサビで『おいおい』を入れる層がいるというユーザー現場観測あり",
+        "確立した標準MIXとして裏付けられる資料は薄い"
+      ],
+      "fieldNote": "ユーザー現場感では曲調的にもコールを詰める印象は薄い。『サビおいおい』は存在するが、現行標準と断定せず動画で周囲の濃度を見る。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E6%8E%92%E4%BB%96%E7%9A%84%E3%83%95%E3%82%A1%E3%82%A4%E3%82%BF%E3%83%BC%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/07/56782/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 55,
+      "key": "きゅんかわ人生",
+      "title": "きゅんかわ人生",
+      "aliases": [
+        "きゅんかわ",
+        "キュンかわ",
+        "キュンカワ",
+        "人生"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "スタンダードMIX・日本語MIXは両方入ることが多い",
+        "落ちサビ以外のサビではイェッタイガー（家虎）が入ることが多い",
+        "「オレらのアイドル！ももきゅん！／ノイミー！」系のレス",
+        "落ちサビ前：「ももきゅん落ちサビよろしくきゅん」系の合図"
+      ],
+      "fieldNote": "派生MIXを追うより、スタンダード／日本語MIX、落ちサビ以外の家虎、曲内の短い専用レスを押さえるのが実用的。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%8D%E3%82%85%E3%82%93%E3%81%8B%E3%82%8F%E4%BA%BA%E7%94%9F%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/coco_ro_magical/n/n7b7365e4dbaa",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 56,
+      "key": "はんぶんこクリスマス",
+      "title": "はんぶんこクリスマス",
+      "aliases": [
+        "はんぶんこ",
+        "半分こクリスマス",
+        "クリスマス"
+      ],
+      "category": "listen",
+      "status": {
+        "className": "status-listen",
+        "label": "⚪ 聴く寄り"
+      },
+      "confidence": "低",
+      "calls": [
+        "基本はちょこもなかのデュエットを聴く",
+        "名前コール・自然な歓声は周囲に合わせる",
+        "現行の定番MIXを裏付ける資料は薄い"
+      ],
+      "fieldNote": "2026サンリオスペシャルライブでも披露。現場レポはデュエット・関係性・撮可の話が中心。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%AF%E3%82%93%E3%81%B6%E3%82%93%E3%81%93%E3%82%AF%E3%83%AA%E3%82%B9%E3%83%9E%E3%82%B9%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/rtlhm71/n/nac90f67f87e6",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 57,
+      "key": "愛くださいませ",
+      "title": "愛くださいませ",
+      "aliases": [
+        "あいくださいませ",
+        "愛下さいませ"
+      ],
+      "category": "unknown",
+      "status": {
+        "className": "status-unknown",
+        "label": "⚪ 新曲・要動画確認"
+      },
+      "confidence": "低",
+      "calls": [
+        "重いダンス・演出を見せる曲で、現時点では詳細コールの定型化を確認しきれず",
+        "自然な名前コール／局所的な掛け声はあり得る",
+        "2026アリーナで新曲にも即座にMIXする層がいたという現場レポはあるが、この曲固有の標準とは断定しない"
+      ],
+      "fieldNote": "2026年5月初披露の新曲。最新ライブ映像を最優先にしたい。ネット上の『その場で入れられたMIX』を標準化しない。",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=HtvwoZH_gE8",
+        "label": "ライブ映像で確認",
+        "note": "CDTV公式フル歌唱"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/05/54040/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 58,
+      "key": "ここでファーストキッス",
+      "title": "ここでファーストキッス",
+      "aliases": [
+        "ファーストキッス",
+        "ファーストキス",
+        "ここでファーストキス"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 専用レス現役"
+      },
+      "confidence": "高",
+      "calls": [
+        "イントロ：『Lover…』の各フレーズに『おい！』×4",
+        "サビ：『ふふー！』、クラップ＋ふわふわ",
+        "『Je t’aime』→『じゅ！て！え！む！』",
+        "2番は『は！な！さ！ない！』",
+        "Cメロ：ななか8連"
+      ],
+      "fieldNote": "2026年7月の専用コール表があり、現在の新曲の中ではかなり書きやすい。",
+      "video": {
+        "url": "https://www.youtube.com/results?search_query=%E2%89%A0ME%20%E3%81%93%E3%81%93%E3%81%A7%E3%83%95%E3%82%A1%E3%83%BC%E3%82%B9%E3%83%88%E3%82%AD%E3%83%83%E3%82%B9%20LIVE%20%E5%85%AC%E5%BC%8F",
+        "label": "ライブ映像で確認",
+        "note": "ライブ映像を検索"
+      },
+      "source": {
+        "url": "https://note.com/nana_miri_kono/n/nb097604428b2",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 59,
+      "key": "Summer haze",
+      "title": "Summer haze",
+      "aliases": [
+        "summerhaze",
+        "summer haze",
+        "サマーヘイズ"
+      ],
+      "category": "active",
+      "status": {
+        "className": "status-active",
+        "label": "🟢 現役・新形成"
+      },
+      "confidence": "中",
+      "calls": [
+        "サビ：『Summer haze』の追っかけレス",
+        "MIX部：しゃーいくぞ → うっお～～い → 間を取る → 倍速MIX",
+        "通常の『しゃーいくぞ→即スタンダード／日本語MIX』ではない",
+        "2番のみるてんソロ周辺にも客席コール"
+      ],
+      "fieldNote": "細かいMIX進行は通常検索でほぼ拾えず、ユーザー現場観測が強い情報。2026 TIF公式フル映像で客席音を確認して更新するのが最適。",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=sGoKPzqRXQI",
+        "label": "ライブ映像で確認",
+        "note": "TIF2026 公式LIVE"
+      },
+      "source": {
+        "url": "https://news.kingrecords.co.jp/2026/06/55842/",
+        "label": "参考資料"
+      }
+    },
+    {
+      "id": 60,
+      "key": "喝采パレード",
+      "title": "喝采パレード",
+      "aliases": [
+        "喝采",
+        "パレード",
+        "かっさいパレード"
+      ],
+      "category": "participation",
+      "status": {
+        "className": "status-participation",
+        "label": "🟢 曲内参加 / 🟡 追加コール注意"
+      },
+      "confidence": "中",
+      "calls": [
+        "サビ：『そこの君（HEY!）』『そっちの君（HEY!）』のHEYを合わせる",
+        "終盤：『Wow oh oh ah ah』を客席も歌う",
+        "歌詞に元からある参加箇所を最優先",
+        "サビへ追加の汎用コールを大量に被せることには否定的な反応もある"
+      ],
+      "fieldNote": "2026アリーナツアータイトル曲。公式フルライブ映像あり。まずHEYと終盤wowを合わせ、余計な被せは周囲を見るのが安全。",
+      "video": {
+        "url": "https://www.youtube.com/watch?v=AUChW4SSwdM",
+        "label": "ライブ映像で確認",
+        "note": "2026 公式LIVE"
+      },
+      "source": {
+        "url": "https://search.yahoo.co.jp/search?p=%E5%96%9D%E9%87%87%E3%83%91%E3%83%AC%E3%83%BC%E3%83%89%20%E2%89%A0ME%20%E3%82%B3%E3%83%BC%E3%83%AB",
+        "label": "参考資料"
+      }
+    }
+  ]
+}
