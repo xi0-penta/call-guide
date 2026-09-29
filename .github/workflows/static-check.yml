@@ -1,4 +1,5 @@
 # Validates the ChatGPT -> GitHub workflow and required static site files.
+# This branch push is also used to verify Cloudflare Preview deployments.
 name: Static Check
 
 on:
