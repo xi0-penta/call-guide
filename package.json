@@ -5,6 +5,7 @@
     "build:equal-love-cards": "node scripts/build-equal-love-cards.mjs",
     "verify:equal-love-search": "node scripts/verify-equal-love-search.mjs",
     "build:equal-love": "node scripts/build-equal-love-cards.mjs",
-    "verify:equal-love-page": "node scripts/verify-equal-love-page.mjs"
+    "verify:equal-love-page": "node scripts/verify-equal-love-page.mjs",
+    "build:not-equal-me": "node scripts/build-not-equal-me.mjs"
   }
 }
