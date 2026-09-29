@@ -1,5 +1,3 @@
-# Validates the ChatGPT -> GitHub workflow and required static site files.
-# This branch push is also used to verify Cloudflare Preview deployments.
 name: Static Check
 
 on:
@@ -18,6 +16,17 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Validate song data
+        run: npm run validate
+
+      - name: Build generated pages
+        run: npm run build
 
       - name: Verify required site files
         shell: bash

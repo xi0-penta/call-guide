@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1, viewport-fit=cover" name="viewport"/>
+<title>＝LOVE 現場コールガイド</title>
+<style>
+:root{--bg:#0f1115;--panel:#171a21;--panel2:#1e222b;--text:#f3f4f6;--muted:#aab0bb;--border:#2b313c;--accent:#ff6fae;--accent-soft:#3a2230;}
+*{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP","Hiragino Sans","Yu Gothic UI",sans-serif;background:var(--bg);color:var(--text);line-height:1.55}
+header{padding:17px 14px 11px;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#151821 0%,#0f1115 100%)} header h1{font-size:20px;margin:0 0 5px} header p{margin:0;color:var(--muted);font-size:12px}
+.sticky{position:sticky;top:0;z-index:30;background:rgba(15,17,21,.97);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--border);padding:9px 10px 10px}
+.search-row{display:grid;grid-template-columns:minmax(0,1fr) 50px;gap:7px} input,select{min-height:44px;border:1px solid var(--border);border-radius:11px;background:var(--panel);color:var(--text);font-size:16px;padding:0 12px;outline:none} input:focus,select:focus{border-color:var(--accent)} .clear-btn{min-height:44px;border:1px solid var(--border);border-radius:11px;background:var(--panel);color:var(--text);font-size:18px}
+.control-row{display:grid;grid-template-columns:1fr;gap:7px;margin-top:7px} .sort-wrap{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:8px;color:var(--muted);font-size:12px} .sort-wrap select{width:100%;font-size:14px;min-height:40px}
+.filters{display:flex;gap:7px;overflow-x:auto;padding-top:8px;scrollbar-width:none} .filters::-webkit-scrollbar{display:none} .filter-btn{flex:0 0 auto;border:1px solid var(--border);background:var(--panel);color:var(--text);border-radius:999px;padding:8px 11px;font-size:13px;white-space:nowrap;min-height:38px} .filter-btn.active{background:var(--accent);border-color:var(--accent);color:#1a0f14;font-weight:800}
+.status{display:flex;justify-content:space-between;gap:8px;padding-top:7px;color:var(--muted);font-size:11px} .ready{color:#9be28f}
+main{padding:10px;max-width:820px;margin:0 auto} .quick-note{background:var(--accent-soft);border:1px solid #62364c;border-radius:13px;padding:11px 12px;margin-bottom:10px;font-size:12px} .quick-note strong{color:#ffb3d3}
+#songList{display:flex;flex-direction:column;gap:9px}
+.song-card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:13px;content-visibility:auto;contain-intrinsic-size:160px;contain:layout paint style;}
+.song-card[hidden]{display:none!important}
+.song-top{display:flex;gap:9px;align-items:flex-start;justify-content:space-between} .song-title-wrap{display:flex;gap:9px;min-width:0;flex:1} .song-main{min-width:0} .index{flex:0 0 29px;height:29px;border-radius:8px;display:grid;place-items:center;background:var(--panel2);color:var(--muted);font-size:11px} h2{font-size:16px;line-height:1.35;margin:1px 0 6px;word-break:break-word}
+.meta-row{display:flex;flex-wrap:wrap;gap:5px;align-items:center} .rank,.kind,.color-chip,.tiger-chip,.tag{display:inline-flex;align-items:center;border-radius:999px;font-size:10.5px;line-height:1;padding:5px 7px} .rank{font-weight:800;background:#272d38} .rank-3{background:#4b2535;color:#ffd2e5} .rank-2{background:#42381f;color:#ffe7a3} .rank-1{background:#24372a;color:#baf0c1} .kind{background:#252a33;color:#d7dae0} .color-chip{background:#2a2635;color:#ded3ff} .tiger-chip{background:#40301b;color:#ffe0a2;border:1px solid #5f4928;font-weight:800}
+.summary{margin:10px 0 9px;font-size:13.5px} .tags{display:flex;flex-wrap:wrap;gap:5px} .tag{background:#20252d;color:#bfc5cf;border:1px solid #303743} .actions{margin-top:10px} .actions a{display:inline-flex;min-height:38px;align-items:center;text-decoration:none;color:#ffd2e5;background:#30202a;border:1px solid #5b3347;border-radius:9px;padding:0 10px;font-size:12px} .fav-btn{flex:0 0 40px;height:40px;border:1px solid var(--border);border-radius:10px;background:var(--panel2);color:#ffd76f;font-size:21px} .fav-btn.on{background:#453917}
+.empty{display:none;padding:28px 10px;text-align:center;color:var(--muted)} .empty.show{display:block}
+footer{color:var(--muted);font-size:11.5px;padding:17px 14px 30px;max-width:820px;margin:0 auto} .legend{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px} .legend span{font-size:10.5px;background:#20252d;padding:5px 7px;border-radius:999px}
+@media(min-width:700px){header{padding-left:24px;padding-right:24px} .sticky{padding-left:24px;padding-right:24px} main{padding:14px 24px} .control-row{grid-template-columns:1fr 280px}}
+
+/* Preview-safe controls: filtering and sorting do not require JavaScript. */
+.state-radio{position:absolute!important;width:1px!important;height:1px!important;overflow:hidden!important;clip:rect(0 0 0 0)!important;clip-path:inset(50%)!important;white-space:nowrap!important;opacity:0!important;pointer-events:none!important}
+.control-label{margin-top:8px;color:var(--muted);font-size:11px;font-weight:700}
+.filter-btn{display:inline-flex;align-items:center;justify-content:center;cursor:pointer;user-select:none;-webkit-user-select:none}
+.sort-buttons{padding-top:5px}
+/* Active filter chips */
+#filter-all:checked ~ .sticky label[for="filter-all"],
+#filter-special:checked ~ .sticky label[for="filter-special"],
+#filter-priority:checked ~ .sticky label[for="filter-priority"],
+#filter-generic:checked ~ .sticky label[for="filter-generic"],
+#filter-tiger:checked ~ .sticky label[for="filter-tiger"],
+#filter-color:checked ~ .sticky label[for="filter-color"],
+#filter-quiet:checked ~ .sticky label[for="filter-quiet"],
+#filter-participation:checked ~ .sticky label[for="filter-participation"],
+#sort-original:checked ~ .sticky label[for="sort-original"],
+#sort-priority:checked ~ .sticky label[for="sort-priority"],
+#sort-tiger:checked ~ .sticky label[for="sort-tiger"],
+#sort-color:checked ~ .sticky label[for="sort-color"],
+#sort-title:checked ~ .sticky label[for="sort-title"]{background:var(--accent);border-color:var(--accent);color:#1a0f14;font-weight:800}
+/* CSS-only filters */
+#filter-special:checked ~ main #songList .song-card:not([data-priority="2"]):not([data-priority="3"]){display:none!important}
+#filter-priority:checked ~ main #songList .song-card:not([data-priority="3"]){display:none!important}
+#filter-generic:checked ~ main #songList .song-card:not([data-generic="1"]){display:none!important}
+#filter-tiger:checked ~ main #songList .song-card:not([data-tiger="1"]){display:none!important}
+#filter-color:checked ~ main #songList .song-card:not([data-color="1"]){display:none!important}
+#filter-quiet:checked ~ main #songList .song-card:not([data-quiet="1"]){display:none!important}
+#filter-participation:checked ~ main #songList .song-card:not([data-participation="1"]){display:none!important}
+/* CSS-only sorting */
+#sort-original:checked ~ main #songList .song-card{order:var(--ord-original)}
+#sort-priority:checked ~ main #songList .song-card{order:var(--ord-priority)}
+#sort-tiger:checked ~ main #songList .song-card{order:var(--ord-tiger)}
+#sort-color:checked ~ main #songList .song-card{order:var(--ord-color)}
+#sort-title:checked ~ main #songList .song-card{order:var(--ord-title)}
+/* Search remains progressive enhancement. */
+.song-card.search-hidden{display:none!important}
+.search-note{margin-top:6px;color:var(--muted);font-size:10.5px}
+
+@media(max-width:420px){
+  .header-row{align-items:stretch}
+  .numa-meter{flex-basis:116px}
+  .song-top{gap:6px}
+  .card-state-actions{flex-direction:column;gap:5px}
+  .fav-btn,.learned-btn{min-height:36px}
+  .learned-btn{min-width:56px}
+}
+
+/* Compact 沼落ち度 meter + CSS-only learned state */
+body{
+  counter-reset:learnedCount;
+  --numa-progress:0%;
+  --numa-fill:#f6b9d0;
+  --numa-text:#ffd1e3;
+  --numa-bg:var(--panel);
+  --numa-border:var(--border);
+}
+.learned-toggle-global:checked{counter-increment:learnedCount}
+
+.header-row{
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+  gap:10px;
+}
+.header-copy{min-width:0;flex:1 1 auto}
+.numa-meter{
+  flex:0 0 96px;
+  width:96px;
+  margin-top:1px;
+  padding:6px 7px 5px;
+  border:1px solid var(--numa-border);
+  border-radius:10px;
+  background:var(--numa-bg);
+}
+.numa-top{
+  display:flex;
+  align-items:baseline;
+  justify-content:space-between;
+  gap:4px;
+}
+.numa-label{
+  font-size:9.2px;
+  line-height:1;
+  font-weight:800;
+  color:var(--numa-text);
+  white-space:nowrap;
+}
+.numa-value{
+  font-size:9.8px;
+  line-height:1;
+  font-weight:900;
+  color:var(--numa-text);
+  white-space:nowrap;
+}
+
+.numa-bar{
+  height:5px;
+  margin-top:5px;
+  overflow:hidden;
+  border-radius:999px;
+  background:#2b313c;
+}
+.numa-fill{
+  height:100%;
+  width:var(--numa-progress);
+  border-radius:999px;
+  background:var(--numa-fill);
+  transition:width .16s ease,background .16s ease;
+}
+.numa-bottom{
+  margin-top:4px;
+  font-size:8.4px;
+  line-height:1;
+  text-align:right;
+  color:var(--muted);
+  white-space:nowrap;
+}
+
+
+/* Color stages */
+
+
+
+
+
+/* State controls */
+.state-toggle{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  overflow:hidden!important;
+  clip:rect(0 0 0 0)!important;
+  clip-path:inset(50%)!important;
+  opacity:0!important;
+  pointer-events:none!important;
+}
+.card-state-actions{
+  flex:0 0 auto;
+  display:flex;
+  gap:6px;
+  align-items:flex-start;
+}
+.fav-btn,.learned-btn{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:38px;
+  border:1px solid var(--border);
+  border-radius:10px;
+  background:var(--panel2);
+  cursor:pointer;
+  user-select:none;
+  -webkit-user-select:none;
+}
+.fav-btn{
+  width:40px;
+  color:#ffd76f;
+  font-size:20px;
+  padding:0;
+}
+.learned-btn{
+  min-width:58px;
+  padding:0 8px;
+  color:#cfd5df;
+  font-size:11px;
+  font-weight:800;
+}
+.fav-toggle:checked ~ .song-top .fav-btn{
+  background:#453917;
+  border-color:#6f5a24;
+  color:#ffd76f;
+}
+.fav-toggle:checked ~ .song-top .fav-btn::before{
+  content:"★";
+  font-size:20px;
+}
+.fav-toggle:checked ~ .song-top .fav-btn{font-size:0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:420px){
+  .card-state-actions{flex-direction:column;gap:5px}
+  .fav-btn,.learned-btn{min-height:36px}
+  .learned-btn{min-width:56px}
+}
+@media(max-width:390px){
+  .numa-meter{flex-basis:90px;width:90px;padding-left:6px;padding-right:6px}
+  .numa-label{font-size:8.8px}
+  .numa-value{font-size:9.3px}
+  .numa-bottom{font-size:8px}
+}
+
+/* Scroll behavior */
+header{
+  position:sticky;
+  top:0;
+  z-index:40;
+  background:linear-gradient(180deg,#151821 0%,#0f1115 100%);
+}
+
+/* Search / filter / sort controls should scroll away normally. */
+.sticky{
+  position:static;
+  top:auto;
+  z-index:auto;
+  -webkit-backdrop-filter:none;
+  backdrop-filter:none;
+  background:var(--bg);
+}
+
+
+/* Desktop / wide-screen layout */
+@media (min-width: 900px){
+  body{
+    overflow-x:hidden;
+  }
+
+  header{
+    padding:14px 28px 12px;
+  }
+
+  .header-row{
+    max-width:1180px;
+    margin:0 auto;
+    align-items:center;
+  }
+
+  .header-copy h1{
+    font-size:22px;
+  }
+
+  .header-copy p{
+    font-size:12.5px;
+  }
+
+  .numa-meter{
+    flex:0 0 118px;
+    width:118px;
+  }
+
+  .sticky{
+    width:min(1180px, calc(100% - 40px));
+    margin:0 auto;
+    padding:14px 20px 16px;
+    border-left:1px solid var(--border);
+    border-right:1px solid var(--border);
+    border-bottom:1px solid var(--border);
+    border-radius:0 0 14px 14px;
+  }
+
+  .search-row{
+    grid-template-columns:minmax(0,1fr) 50px;
+    max-width:620px;
+  }
+
+  .filters{
+    flex-wrap:wrap;
+    overflow:visible;
+    padding-bottom:0;
+  }
+
+  .filter-btn{
+    min-height:38px;
+  }
+
+  main{
+    max-width:1180px;
+    padding:18px 20px 26px;
+  }
+
+  #songList{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:12px;
+    align-items:stretch;
+  }
+
+  .song-card{
+    min-width:0;
+    height:100%;
+    display:flex;
+    flex-direction:column;
+  }
+
+  .song-top{
+    min-width:0;
+  }
+
+  .song-title-wrap,
+  .song-main{
+    min-width:0;
+  }
+
+  .summary{
+    flex:0 0 auto;
+  }
+
+  .tags{
+    flex:0 0 auto;
+  }
+
+  .actions{
+    margin-top:auto;
+    padding-top:10px;
+  }
+
+  footer{
+    max-width:1180px;
+    padding:20px 20px 36px;
+  }
+}
+
+@media (min-width: 1440px){
+  .header-row,
+  main,
+  footer{
+    max-width:1280px;
+  }
+
+  .sticky{
+    width:min(1280px, calc(100% - 56px));
+  }
+
+  #songList{
+    gap:14px;
+  }
+}
+
+/* Prevent awkward wrapping/overflow on medium desktop and resized windows. */
+@media (min-width: 700px) and (max-width: 899px){
+  main{
+    max-width:900px;
+  }
+
+  .filters{
+    flex-wrap:wrap;
+    overflow:visible;
+  }
+
+  .song-card{
+    min-width:0;
+  }
+}
+
+
+/* ===== 2026-09-25 UI refresh: pastel pink / top-page visual language ===== */
+:root{
+  --bg:#fff8fb;
+  --panel:rgba(255,255,255,.90);
+  --panel2:#fff1f6;
+  --text:#2f3142;
+  --muted:#777487;
+  --border:#f0dbe5;
+  --accent:#ff6fa9;
+  --accent-soft:#fff0f6;
+  --love1:#ff6fa9;
+  --love2:#ffb2cd;
+  --soft-lavender:#f3efff;
+  --shadow:0 14px 34px rgba(113,78,101,.11);
+  --shadow-soft:0 8px 22px rgba(113,78,101,.08);
+}
+
+html{
+  background:#fff8fb;
+}
+
+body{
+  background:
+    radial-gradient(circle at 0% 0%,rgba(255,198,220,.72) 0%,transparent 28%),
+    radial-gradient(circle at 100% 4%,rgba(255,228,239,.94) 0%,transparent 27%),
+    radial-gradient(circle at 50% 100%,rgba(238,233,255,.68) 0%,transparent 30%),
+    linear-gradient(135deg,#fff8fb 0%,#fbf8ff 52%,#fffafd 100%);
+  color:var(--text);
+}
+
+header{
+  background:rgba(255,255,255,.80);
+  border-bottom:1px solid rgba(239,210,223,.95);
+  box-shadow:0 7px 24px rgba(110,78,98,.07);
+  -webkit-backdrop-filter:blur(16px);
+  backdrop-filter:blur(16px);
+}
+
+header h1,
+.header-copy h1{
+  color:#2f3142;
+  font-weight:800;
+  letter-spacing:.02em;
+}
+
+header p,
+.header-copy p{
+  color:var(--muted);
+}
+
+.numa-meter{
+  border-color:#efd3e1;
+  background:linear-gradient(145deg,rgba(255,255,255,.96),rgba(255,241,247,.92));
+  box-shadow:0 7px 18px rgba(255,111,169,.10);
+}
+
+.numa-label,
+.numa-value{
+  color:#d94f89;
+}
+
+.numa-bar{
+  background:#f4dde7;
+  box-shadow:inset 0 1px 2px rgba(89,53,72,.08);
+}
+
+.numa-bottom{
+  color:#8f7d88;
+}
+
+.sticky{
+  margin:10px 10px 0;
+  padding:12px;
+  background:rgba(255,255,255,.78);
+  border:1px solid rgba(239,211,224,.96);
+  border-radius:20px;
+  box-shadow:var(--shadow-soft);
+  -webkit-backdrop-filter:blur(15px);
+  backdrop-filter:blur(15px);
+}
+
+.search-row input,
+input,
+select{
+  background:rgba(255,255,255,.95);
+  color:var(--text);
+  border-color:#ecd6e1;
+  box-shadow:0 3px 10px rgba(103,72,91,.04);
+}
+
+input::placeholder{
+  color:#aa9aa3;
+}
+
+input:focus,
+select:focus{
+  border-color:var(--love1);
+  box-shadow:0 0 0 3px rgba(255,111,169,.12);
+}
+
+.clear-btn{
+  background:linear-gradient(145deg,#fff,#fff3f7);
+  color:#8b7380;
+  border-color:#ecd6e1;
+  box-shadow:0 3px 10px rgba(103,72,91,.04);
+}
+
+.control-label{
+  color:#8a7480;
+  letter-spacing:.04em;
+}
+
+.filter-btn{
+  background:rgba(255,255,255,.92);
+  color:#5c5561;
+  border-color:#ead4df;
+  box-shadow:0 3px 10px rgba(91,63,80,.04);
+}
+
+#filter-all:checked ~ .sticky label[for="filter-all"],
+#filter-special:checked ~ .sticky label[for="filter-special"],
+#filter-priority:checked ~ .sticky label[for="filter-priority"],
+#filter-generic:checked ~ .sticky label[for="filter-generic"],
+#filter-tiger:checked ~ .sticky label[for="filter-tiger"],
+#filter-color:checked ~ .sticky label[for="filter-color"],
+#filter-quiet:checked ~ .sticky label[for="filter-quiet"],
+#filter-participation:checked ~ .sticky label[for="filter-participation"],
+#sort-original:checked ~ .sticky label[for="sort-original"],
+#sort-priority:checked ~ .sticky label[for="sort-priority"],
+#sort-tiger:checked ~ .sticky label[for="sort-tiger"],
+#sort-color:checked ~ .sticky label[for="sort-color"],
+#sort-title:checked ~ .sticky label[for="sort-title"]{
+  background:linear-gradient(135deg,var(--love1),var(--love2));
+  border-color:transparent;
+  color:#fff;
+  font-weight:800;
+  box-shadow:0 6px 15px rgba(255,111,169,.20);
+}
+
+.status{
+  color:#94848e;
+}
+
+main{
+  padding-top:12px;
+}
+
+.quick-note{
+  background:linear-gradient(135deg,rgba(255,239,246,.97),rgba(255,247,251,.94));
+  border-color:#f0cfdd;
+  color:#5d5057;
+  box-shadow:0 7px 18px rgba(112,77,98,.06);
+}
+
+.quick-note strong{
+  color:#d94f89;
+}
+
+#songList{
+  gap:11px;
+}
+
+.song-card{
+  position:relative;
+  overflow:hidden;
+  background:rgba(255,255,255,.92);
+  border-color:rgba(236,215,225,.98);
+  border-radius:20px;
+  box-shadow:var(--shadow-soft);
+}
+
+.song-card::before{
+  content:"";
+  position:absolute;
+  inset:0 auto 0 0;
+  width:5px;
+  background:linear-gradient(180deg,var(--love1),var(--love2));
+  opacity:.88;
+}
+
+.index{
+  background:linear-gradient(145deg,#fff0f6,#f8e9f1);
+  color:#c85685;
+  border:1px solid #f0d4e0;
+  font-weight:800;
+}
+
+.song-main h2,
+h2{
+  color:#302e3b;
+  font-weight:800;
+}
+
+.summary{
+  color:#514d5a;
+}
+
+.rank{
+  background:#f4eef2;
+  color:#655c65;
+}
+
+.rank-3{
+  background:#ffe2ed;
+  color:#b9336b;
+}
+
+.rank-2{
+  background:#fff1cf;
+  color:#966c12;
+}
+
+.rank-1{
+  background:#e8f6ec;
+  color:#39794b;
+}
+
+.kind{
+  background:#f6f1f4;
+  color:#6d626a;
+}
+
+.color-chip{
+  background:#f1edff;
+  color:#6758a3;
+}
+
+.tiger-chip{
+  background:#fff2d9;
+  color:#8d621c;
+  border-color:#f0d49d;
+}
+
+.tag{
+  background:#faf4f7;
+  color:#756872;
+  border-color:#ead9e1;
+}
+
+.actions a{
+  color:#c5427a;
+  background:linear-gradient(145deg,#fff0f6,#fff8fb);
+  border-color:#efc9d9;
+  border-radius:11px;
+  font-weight:700;
+  box-shadow:0 4px 12px rgba(255,111,169,.08);
+}
+
+.fav-btn,
+.learned-btn{
+  background:linear-gradient(145deg,#fff,#fff5f9);
+  border-color:#ead4df;
+  box-shadow:0 4px 12px rgba(96,66,84,.05);
+}
+
+.fav-btn{
+  color:#e2ad2d;
+}
+
+.learned-btn{
+  color:#746873;
+}
+
+.fav-toggle:checked ~ .song-top .fav-btn{
+  background:#fff4c8;
+  border-color:#edd98c;
+  color:#d8a51d;
+}
+
+footer{
+  color:#8a7d86;
+}
+
+.legend span{
+  background:rgba(255,255,255,.78);
+  color:#71656e;
+  border:1px solid #eadbe2;
+}
+
+.empty{
+  color:#8c7e87;
+}
+
+@media (min-width:900px){
+  .sticky{
+    margin:12px auto 0;
+    border:1px solid rgba(239,211,224,.96);
+    border-radius:20px;
+  }
+
+  .song-card{
+    border-radius:20px;
+  }
+}
+
+
+/* ===== 2026-09-25 UI fixes: filter tap highlight + learned state ===== */
+.filter-btn,
+.learned-btn,
+.fav-btn{
+  -webkit-tap-highlight-color:transparent;
+}
+
+/* Selected filter/sort = simple inverted pill only.
+   No translucent rectangular shadow/highlight around the selected item. */
+#filter-all:checked ~ .sticky label[for="filter-all"],
+#filter-special:checked ~ .sticky label[for="filter-special"],
+#filter-priority:checked ~ .sticky label[for="filter-priority"],
+#filter-generic:checked ~ .sticky label[for="filter-generic"],
+#filter-tiger:checked ~ .sticky label[for="filter-tiger"],
+#filter-color:checked ~ .sticky label[for="filter-color"],
+#filter-quiet:checked ~ .sticky label[for="filter-quiet"],
+#filter-participation:checked ~ .sticky label[for="filter-participation"],
+#sort-original:checked ~ .sticky label[for="sort-original"],
+#sort-priority:checked ~ .sticky label[for="sort-priority"],
+#sort-tiger:checked ~ .sticky label[for="sort-tiger"],
+#sort-color:checked ~ .sticky label[for="sort-color"],
+#sort-title:checked ~ .sticky label[for="sort-title"]{
+  background:#ff6fa9;
+  border-color:#ff6fa9;
+  color:#fff;
+  box-shadow:none;
+  outline:none;
+}
+
+.filter-btn:active,
+.filter-btn:focus{
+  outline:none;
+}
+
+/* Learned state: keep the same interaction, but use the =LOVE pink palette. */
+.learned-btn{
+  transition:background .15s ease,border-color .15s ease,color .15s ease;
+}
+
+/* Top page navigation */
+.back-home{
+  display:inline-flex;
+  align-items:center;
+  gap:5px;
+  min-height:32px;
+  margin-top:7px;
+  padding:5px 10px;
+  border:1px solid rgba(255,111,174,.35);
+  border-radius:999px;
+  background:rgba(255,111,174,.10);
+  color:#ff8fbd;
+  text-decoration:none;
+  font-size:11px;
+  font-weight:800;
+  -webkit-tap-highlight-color:transparent;
+}
+.back-home:active{transform:scale(.97)}
+.back-home-arrow{font-size:17px;line-height:1}
+
+
+/* Data-driven learned state */
+.song-card.is-learned .learned-btn{background:#ffe8f1;border-color:#ee9fbe;color:#b93e72}.song-card.is-learned .learned-btn::before{content:"✓ "}.song-card.is-learned{border-color:#ef9fbe}
+</style>
+</head>
+<body>{{LEARNED_INPUTS}}
+<header><div class="header-row"><div class="header-copy"><h1>＝LOVE 現場コールガイド</h1><p>MIX・特殊コール・色指定・家虎をすぐ確認</p><a class="back-home" href="../"><span class="back-home-arrow">‹</span><span>トップページに戻る</span></a></div><div aria-label="沼落ち度" class="numa-meter" id="numaMeter"><div class="numa-top"><span class="numa-label">沼落ち度</span><span class="numa-value" id="numaValue"></span></div><div aria-hidden="true" class="numa-bar"><div class="numa-fill" id="numaFill"></div></div><div class="numa-bottom" id="numaBottom"></div></div></div></header>
+<input checked="" class="state-radio" id="filter-all" name="filter" type="radio"/><input class="state-radio" id="filter-special" name="filter" type="radio"/><input class="state-radio" id="filter-priority" name="filter" type="radio"/><input class="state-radio" id="filter-generic" name="filter" type="radio"/><input class="state-radio" id="filter-tiger" name="filter" type="radio"/><input class="state-radio" id="filter-color" name="filter" type="radio"/><input class="state-radio" id="filter-quiet" name="filter" type="radio"/><input class="state-radio" id="filter-participation" name="filter" type="radio"/><input checked="" class="state-radio" id="sort-original" name="sort" type="radio"/><input class="state-radio" id="sort-priority" name="sort" type="radio"/><input class="state-radio" id="sort-tiger" name="sort" type="radio"/><input class="state-radio" id="sort-color" name="sort" type="radio"/><input class="state-radio" id="sort-title" name="sort" type="radio"/><section aria-label="検索と絞り込み" class="sticky"><div class="search-row"><input autocomplete="off" id="search" placeholder="曲名・ガチ恋・赤・イェッタイガー…" type="search"/><button aria-label="検索をクリア" class="clear-btn" id="clear" type="button">×</button></div>
+<div class="control-label">絞り込み</div>
+<div class="filters" id="filters">
+<label class="filter-btn" for="filter-all">全曲</label>
+<label class="filter-btn" for="filter-special">特殊</label>
+<label class="filter-btn" for="filter-priority">★★★</label>
+<label class="filter-btn" for="filter-generic">汎用</label>
+<label class="filter-btn" for="filter-tiger">🐯 家虎</label>
+<label class="filter-btn" for="filter-color">色指定</label>
+<label class="filter-btn" for="filter-quiet">コール薄め</label>
+<label class="filter-btn" for="filter-participation">参加型</label>
+</div>
+<div class="control-label">並び替え</div>
+<div class="filters sort-buttons" id="sortButtons">
+<label class="filter-btn" for="sort-original">収録順</label>
+<label class="filter-btn" for="sort-priority">予習優先</label>
+<label class="filter-btn" for="sort-tiger">🐯 家虎優先</label>
+<label class="filter-btn" for="sort-color">色指定優先</label>
+<label class="filter-btn" for="sort-title">曲名順</label>
+</div>
+<div class="status"><span id="count">全{{COUNT}}曲</span></div>
+</section>
+<main>
+<div class="quick-note"><strong>🐯 家虎マーク：</strong>「イェッタイガー」系の定着・掲載を確認できた曲のみ表示。無印は「確認範囲で一覧表示なし」で、絶対に存在しない／禁止を意味しません。</div>
+<div id="songList">{{SONG_CARDS}}</div>
+</main>
+<footer><div>判定目安：◎＝汎用でほぼ対応 / △＝汎用ベース＋固有要素 / ★＝専用コール等を予習推奨 / ―＝コール薄め・なし寄り</div><div class="legend"><span>🐯 家虎</span><span>英語MIX</span><span>日本語MIX</span><span>名前コール</span><span>ガチ恋口上</span><span>専用口上</span><span>色指定</span></div><p>※ライブごとに定着コール・煽り・演出は変わる場合があります。新曲・定着途上曲は現場優先。</p></footer>
+<script>
+(function(){
+  'use strict';
+
+  var search=document.getElementById('search');
+  var clear=document.getElementById('clear');
+  var cards=Array.prototype.slice.call(document.querySelectorAll('#songList .song-card'));
+  var timer=0;
+
+  function norm(s){
+    try{return (s||'').toString().normalize('NFKC').toLowerCase().replace(/\s+/g,' ');}
+    catch(e){return (s||'').toString().toLowerCase();}
+  }
+
+  function loadSet(key){
+    try{
+      var raw=localStorage.getItem(key);
+      if(!raw) return {};
+      var arr=JSON.parse(raw),out={};
+      if(Array.isArray(arr)) arr.forEach(function(v){out[v]=true;});
+      return out;
+    }catch(e){{return {};}}
+  }
+
+  function saveSet(key,obj){
+    try{
+      localStorage.setItem(
+        key,
+        JSON.stringify(Object.keys(obj).filter(function(k){return obj[k];}))
+      );
+    }catch(e){}
+  }
+
+  var favs=loadSet('equalLoveCallGuide_favorites');
+  var learned=loadSet('equalLoveCallGuide_learned');
+
+  cards.forEach(function(card,idx){
+    var key=card.getAttribute('data-key')||card.getAttribute('data-title')||'';
+    var fav=card.querySelector('.fav-toggle');
+    var learnedBox=document.getElementById('learned-'+(idx+1));
+
+    if(fav){
+      fav.checked=!!favs[key];
+      fav.addEventListener('change',function(){
+        if(fav.checked) favs[key]=true; else delete favs[key];
+        saveSet('equalLoveCallGuide_favorites',favs);
+      });
+    }
+
+    if(learnedBox){
+      learnedBox.checked=!!learned[key];
+      learnedBox.addEventListener('change',function(){
+        if(learnedBox.checked) learned[key]=true; else delete learned[key];
+        saveSet('equalLoveCallGuide_learned',learned);
+      });
+    }
+  });
+
+  function applySearch(){
+    if(!search) return;
+    var q=norm(search.value.trim());
+    cards.forEach(function(card){
+      var hay=norm(card.getAttribute('data-search')||'');
+      card.classList.toggle('search-hidden',!!q&&hay.indexOf(q)===-1);
+    });
+  }
+
+  if(search){
+    search.addEventListener('input',function(){
+      clearTimeout(timer);
+      timer=setTimeout(applySearch,60);
+    });
+  }
+
+  if(clear){
+    clear.addEventListener('click',function(){
+      if(!search) return;
+      search.value='';
+      applySearch();
+      search.focus();
+    });
+  }
+})();
+</script>{{METER_SCRIPT}}</body>
+</html>
