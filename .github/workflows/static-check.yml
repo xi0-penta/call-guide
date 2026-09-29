@@ -49,3 +49,19 @@ jobs:
           set -e
           git diff --exit-code -- equal-love/index.html generated/equal-love-song-cards.html
           echo "Generated Equal Love files are up to date."
+
+      - name: Build Not Equal Me page
+        run: npm run build:not-equal-me
+
+      - name: Verify Not Equal Me search
+        run: npm run verify:not-equal-me-search
+
+      - name: Verify Not Equal Me page
+        run: npm run verify:not-equal-me-page
+
+      - name: Verify generated Not Equal Me files are current
+        shell: bash
+        run: |
+          set -e
+          git diff --exit-code -- not-equal-me/index.html generated/not-equal-me-song-batches.html
+          echo "Generated Not Equal Me files are up to date."
